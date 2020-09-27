@@ -69,10 +69,11 @@ export default {
         name !== "Advisory board" &&
         name !== "Knowledge hub" &&
         name !== "Wiki on rs" &&
-        name !== "Flagship cases" &&
-        name !== "Roadmaps" &&
-        name !== "Sector state of plays" &&
-        name !== "Project outputs"
+        name !== "Existing approaches" &&
+        name !== "Consultation" &&
+        name !== "Moving forward" &&
+        name !== "Project outputs" &&
+        name !== "External resources"
       );
     }
   }

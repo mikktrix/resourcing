@@ -81,23 +81,26 @@
         </template>
 
         <v-list color="primary2" dark>
-<!--          <v-list-item to="/knowledge_hub" exact>-->
-<!--            <v-list-item-title>KNOWLEDGE HUB</v-list-item-title>-->
-<!--          </v-list-item>-->
+          <!--          <v-list-item to="/knowledge_hub" exact>-->
+          <!--            <v-list-item-title>KNOWLEDGE HUB</v-list-item-title>-->
+          <!--          </v-list-item>-->
           <v-list-item to="/knowledge_hub/wiki_on_rs" exact>
             <v-list-item-title>WIKI ON RS</v-list-item-title>
           </v-list-item>
-          <v-list-item to="/knowledge_hub/flagship_cases" exact>
-            <v-list-item-title>FLAGSHIP CASES</v-list-item-title>
+          <v-list-item to="/knowledge_hub/existing_approaches" exact>
+            <v-list-item-title>EXISTING APPROACHES</v-list-item-title>
           </v-list-item>
-          <v-list-item to="/knowledge_hub/roadmaps" exact>
-            <v-list-item-title>ROADMAPS</v-list-item-title>
+          <v-list-item to="/knowledge_hub/consultation" exact>
+            <v-list-item-title>CONSULTATION</v-list-item-title>
           </v-list-item>
-          <v-list-item to="/knowledge_hub/sector_state_of_plays" exact>
-            <v-list-item-title>SECTOR STATE OF PLAYS</v-list-item-title>
+          <v-list-item to="/knowledge_hub/moving_forward" exact>
+            <v-list-item-title>MOVING FORWARD</v-list-item-title>
           </v-list-item>
           <v-list-item to="/knowledge_hub/project_outputs" exact>
             <v-list-item-title>PROJECT OUTPUTS</v-list-item-title>
+          </v-list-item>
+          <v-list-item to="/knowledge_hub/external_resources" exact>
+            <v-list-item-title>EXTERNAL RESOURCES</v-list-item-title>
           </v-list-item>
         </v-list>
       </v-menu>
@@ -132,9 +135,10 @@ export default {
       return (
         name === "Knowledge hub" ||
         name === "Wiki on rs" ||
-        name === "Flagship cases" ||
-        name === "Roadmaps" ||
-        name === "Sector state of plays"
+        name === "Existing approaches" ||
+        name === "Consultation" ||
+        name === "Moving forward" ||
+        name === "External resources"
       );
     }
   },

@@ -34,9 +34,14 @@
                   :to="link.url"
                   >{{ link.name }}</router-link
                 >
-                <a v-else class="white--text link" :href="link.url" target="PrivacyWindow" rel="noopener noreferrer">{{
-                  link.name
-                }}</a>
+                <a
+                  v-else
+                  class="white--text link"
+                  :href="link.url"
+                  target="PrivacyWindow"
+                  rel="noopener noreferrer"
+                  >{{ link.name }}</a
+                >
               </li>
             </ul>
           </div>

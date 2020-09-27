@@ -99,23 +99,28 @@ export default {
       },
       {
         icon: "far fa-flag",
-        text: "Flagship cases",
-        url: "/knowledge_hub/flagship_cases"
+        text: "Existing approaches",
+        url: "/knowledge_hub/existing_approaches"
       },
       {
         icon: "fas fa-road",
-        text: "Roadmaps",
-        url: "/knowledge_hub/roadmaps"
+        text: "Consultation",
+        url: "/knowledge_hub/consultation"
       },
       {
         icon: "fas fa-project-diagram",
-        text: "Sector state of plays",
-        url: "/knowledge_hub/sector_state_of_plays"
+        text: "Moving forward",
+        url: "/knowledge_hub/moving_forward"
       },
       {
         icon: "fas fa-download",
         text: "Project Outputs",
         url: "/knowledge_hub/project_outputs"
+      },
+      {
+        icon: "fas fa-download",
+        text: "External resources",
+        url: "/knowledge_hub/external_resources"
       },
       {
         icon: "far fa-address-book",

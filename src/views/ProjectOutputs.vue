@@ -70,8 +70,8 @@
 
         <v-row>
           <v-col cols="12" class="text-h7 text-justify font-weight-bold pb-1">
-            Briefing Document (1) (September, 2020): Responsible Sourcing: The Case
-            for Business Competitiveness
+            Briefing Document (1) (September, 2020): Responsible Sourcing: The
+            Case for Business Competitiveness
           </v-col>
 
           <v-col cols="12" class="text-h7 text-justify pb-1">

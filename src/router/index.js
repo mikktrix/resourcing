@@ -67,24 +67,29 @@ const routes = [
         component: () => import("../views/WikiOnRs.vue")
       },
       {
-        path: "flagship_cases",
-        name: "Flagship cases",
-        component: () => import("../views/FlagshipCases.vue")
+        path: "existing_approaches",
+        name: "Existing approaches",
+        component: () => import("../views/ExistingApproaches.vue")
       },
       {
-        path: "roadmaps",
-        name: "Roadmaps",
-        component: () => import("../views/Roadmaps.vue")
+        path: "consultation",
+        name: "Consultation",
+        component: () => import("../views/Consultation.vue")
       },
       {
-        path: "sector_state_of_plays",
-        name: "Sector state of plays",
-        component: () => import("../views/SectorStateOfPlays.vue")
+        path: "moving_forward",
+        name: "Moving forward",
+        component: () => import("../views/MovingForward.vue")
       },
       {
         path: "project_outputs",
         name: "Project outputs",
         component: () => import("../views/ProjectOutputs.vue")
+      },
+      {
+        path: "external_resources",
+        name: "External resources",
+        component: () => import("../views/ExternalResources.vue")
       }
     ]
   },
