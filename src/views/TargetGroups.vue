@@ -178,7 +178,7 @@ export default {
             show: false,
             answer:
               "The research team will be focusing on the mining and manufacturing segments of the renewable energy value chain." +
-              `<br /><img src="https://github.com/mikktrix/resourcing/blob/master/src/assets/img/structure-and-content/Target_Group_RE_Sector.jpg?raw=true" alt="RE-sectors"></img>`
+              `<br /><img src="https://github.com/mikktrix/resourcing/blob/master/src/assets/img/structure-and-content/Target_Group_RE_Sector.jpg?raw=true" alt="RE-sectors" style="width: 100%; height: auto;"></img>`
           },
           {
             question: "What questions are we asking?",
@@ -238,7 +238,7 @@ export default {
             answer:
               "<p>The research in the mobility sector will focus on the lithium ion batteries for electric vehicles. Within the electric car value chain, the battery is the most valuable component, account for 40% of the value addition.</p>" +
               "<p>Within the battery value chain, the project team is considering looking at three steps: Mining, Cell Manufacturing, and Recycling.</p>" +
-              `<br /><img src="https://github.com/mikktrix/resourcing/blob/master/src/assets/img/structure-and-content/Target_Group_Mobility_GVC.jpg?raw=true" alt="Mobility sector"></img>`
+              `<br /><img src="https://github.com/mikktrix/resourcing/blob/master/src/assets/img/structure-and-content/Target_Group_Mobility_GVC.jpg?raw=true" alt="Mobility sector" style="width: 100%; height: auto;"></img>`
           },
           {
             question: "What questions are we asking?",
@@ -295,15 +295,15 @@ export default {
             show: false,
             answer:
               "<p>Given the width and depth of actors in the EEE sector, the research team will be considering: End-users; Smelters/refineries; Component & Product Manufacturers and Mining companies within the EEE value chain. </p>" +
-              `<br /><img src="https://github.com/mikktrix/resourcing/blob/master/src/assets/img/structure-and-content/Target_Group_EEE_GVC.jpg?raw=true" alt="EEE sector" class="faq-img"></img>`
+              `<br /><img src="https://github.com/mikktrix/resourcing/blob/master/src/assets/img/structure-and-content/Target_Group_EEE_GVC.jpg?raw=true" alt="EEE sector" width="451" height="234" style="width: 100%; height: auto;"></img>`
           },
           {
             question: "What questions are we asking?",
             show: false,
             answer:
               "<p>The research team will have a strong focus on solutions favouring reducing the material and energy throughput that goes into consumption and production, including material efficiency and recycling rather than focusing on mining virgin raw materials.</p>" +
-              "<ul><li>o	How can virgin raw material extraction meet responsible sourcing requirements through verified third-party certification schemes and (mandatory) due diligence of the supply chains?</li>" +
-              "<li>o	How can we build a cross sectoral responsible sourcing approach between the mining sector, electronics and automotive industries, given that they share a number of mineral supply chains and sources?</li></ul>"
+              "<ul><li>How can virgin raw material extraction meet responsible sourcing requirements through verified third-party certification schemes and (mandatory) due diligence of the supply chains?</li>" +
+              "<li>How can we build a cross sectoral responsible sourcing approach between the mining sector, electronics and automotive industries, given that they share a number of mineral supply chains and sources?</li></ul>"
           },
           {
             question: "What minerals are we studying?",
@@ -363,12 +363,6 @@ export default {
 
 .electronics {
   border-color: #f0a846;
-}
-
-.faq-img {
-  max-width: 100%;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .elevation-4-accent {
