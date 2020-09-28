@@ -295,7 +295,7 @@ export default {
             show: false,
             answer:
               "<p>Given the width and depth of actors in the EEE sector, the research team will be considering: End-users; Smelters/refineries; Component & Product Manufacturers and Mining companies within the EEE value chain. </p>" +
-              `<br /><img src="https://github.com/mikktrix/resourcing/blob/master/src/assets/img/structure-and-content/Target_Group_EEE%20GVC.jpg?raw=true" alt="EEE sector" class="faq-img"></img>`
+              `<br /><img src="https://github.com/mikktrix/resourcing/blob/master/src/assets/img/structure-and-content/Target_Group_EEE_GVC.jpg?raw=true" alt="EEE sector" class="faq-img"></img>`
           },
           {
             question: "What questions are we asking?",
