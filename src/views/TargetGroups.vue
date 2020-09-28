@@ -178,7 +178,7 @@ export default {
             show: false,
             answer:
               "The research team will be focusing on the mining and manufacturing segments of the renewable energy value chain." +
-              `<br /><img src="https://re-sourcing.eu/img/structure-and-content/Target_Group_RE_Sector.jpg" alt="RE-sectors"></img>`
+              `<br /><img src="https://github.com/mikktrix/resourcing/blob/master/src/assets/img/structure-and-content/Target_Group_RE_Sector.jpg?raw=true" alt="RE-sectors"></img>`
           },
           {
             question: "What questions are we asking?",
@@ -238,7 +238,7 @@ export default {
             answer:
               "<p>The research in the mobility sector will focus on the lithium ion batteries for electric vehicles. Within the electric car value chain, the battery is the most valuable component, account for 40% of the value addition.</p>" +
               "<p>Within the battery value chain, the project team is considering looking at three steps: Mining, Cell Manufacturing, and Recycling.</p>" +
-              `<br /><img src="https://re-sourcing.eu/img/structure-and-content/Target_Group_Mobility_GVC.png" alt="Mobility sector"></img>`
+              `<br /><img src="https://github.com/mikktrix/resourcing/blob/master/src/assets/img/structure-and-content/Target_Group_Mobility_GVC.jpg?raw=true" alt="Mobility sector"></img>`
           },
           {
             question: "What questions are we asking?",
@@ -295,7 +295,7 @@ export default {
             show: false,
             answer:
               "<p>Given the width and depth of actors in the EEE sector, the research team will be considering: End-users; Smelters/refineries; Component & Product Manufacturers and Mining companies within the EEE value chain. </p>" +
-              `<br /><img src="https://re-sourcing.eu/img/structure-and-content/Target_Group_EEE GVC.png" alt="EEE sector"></img>`
+              `<br /><img src="https://github.com/mikktrix/resourcing/blob/master/src/assets/img/structure-and-content/Target_Group_EEE%20GVC.jpg?raw=true" alt="EEE sector" class="faq-img"></img>`
           },
           {
             question: "What questions are we asking?",
