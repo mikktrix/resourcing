@@ -26,6 +26,11 @@ export default new Vuetify({
       }
     }
   },
+  breakpoint: {
+    thresholds: {
+      xs: 470
+    }
+  },
   icons: {
     iconfont: "fa"
   }

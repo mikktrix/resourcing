@@ -81,9 +81,6 @@
         </template>
 
         <v-list color="primary2" dark>
-          <!--          <v-list-item to="/knowledge_hub" exact>-->
-          <!--            <v-list-item-title>KNOWLEDGE HUB</v-list-item-title>-->
-          <!--          </v-list-item>-->
           <v-list-item to="/knowledge_hub/wiki_on_rs" exact>
             <v-list-item-title>WIKI ON RS</v-list-item-title>
           </v-list-item>
@@ -107,6 +104,17 @@
 
       <v-btn text to="/contact" exact>Contact</v-btn>
     </v-toolbar-items>
+    <v-spacer></v-spacer>
+    <v-toolbar-items
+      :class="{
+        'd-none': $vuetify.breakpoint.xs,
+        'd-inline': $vuetify.breakpoint.smAndUp
+      }"
+    >
+      <v-btn text to="/events?tab=Virtual Conferences" exact
+        ><v-icon class="pr-3">far fa-calendar-alt</v-icon>Next Upcoming Event
+      </v-btn></v-toolbar-items
+    >
   </v-app-bar>
 </template>
 

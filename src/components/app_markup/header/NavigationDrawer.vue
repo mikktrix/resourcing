@@ -9,7 +9,7 @@
     color="primary"
   >
     <v-list dense>
-      <v-subheader>ROUTES</v-subheader>
+      <v-subheader></v-subheader>
       <v-list-item
         v-for="item in externalResources"
         :key="item.text"
