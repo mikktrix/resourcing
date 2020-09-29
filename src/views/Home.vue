@@ -350,8 +350,8 @@
           'px-12': $vuetify.breakpoint.mdAndUp
         }"
       >
-        <div class="text-h6 font-weight-bold mt-2">
-          Be the first to read what's new! Subscribe to mailing list:
+        <div class="text-h6 font-weight-bold mt-2 mb-4">
+          {{ subscribeText }}
         </div>
 
         <div
@@ -444,6 +444,8 @@ export default {
   },
 
   data: () => ({
+    subscribeText:
+      "We invite you to be part of the RE-SOURCING Platform by subscribing to our growing network. By joining our network, you will receive our newsletters, will be invited to the various RE-SOURCING platform events (e.g. Conferences, Workshops, Webinars and Peer-Learning Labs) and will be informed about our latest achievements and publications.",
     usersEmailAddress: "",
     members: [
       {

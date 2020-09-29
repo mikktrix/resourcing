@@ -107,7 +107,7 @@
     <v-spacer></v-spacer>
     <v-toolbar-items
       :class="{
-        'd-none': $vuetify.breakpoint.xs,
+        'd-none': $vuetify.breakpoint.xsOnly,
         'd-inline': $vuetify.breakpoint.smAndUp
       }"
     >

@@ -28,7 +28,7 @@ export default new Vuetify({
   },
   breakpoint: {
     thresholds: {
-      xs: 470
+      nav: 470
     }
   },
   icons: {
