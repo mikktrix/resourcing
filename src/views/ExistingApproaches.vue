@@ -38,16 +38,35 @@
           <v-col
             cols="12"
             lg="4"
-            class="py-3 px-5 d-flex justify-center align-center"
+            class="py-3 px-5 d-flex justify-center align-center text-center"
           >
-            <v-img
-              class="rounded align-self-center"
-              style="border: 3px solid white"
-              max-width="400px"
-              :src="
-                require('../assets/img/structure-and-content/Existing approaches.jpg')
-              "
-            ></v-img>
+            <figure>
+              <v-img
+                class="rounded align-self-center"
+                style="border: 3px solid white"
+                alt="Notebook with notes"
+                max-width="350px"
+                :src="
+                  require('../assets/img/structure-and-content/Existing approaches.jpg')
+                "
+              ></v-img>
+              <figcaption style="font-size: small">
+                Photo by
+                <a
+                  href="https://unsplash.com/@medbadrc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                  target="blank"
+                  class="white--text"
+                  >Med BadrChemmaoui</a
+                >
+                on
+                <a
+                  href="https://unsplash.com/"
+                  target="blank"
+                  class="white--text"
+                  >Unsplash</a
+                >
+              </figcaption>
+            </figure>
           </v-col>
         </v-row>
 

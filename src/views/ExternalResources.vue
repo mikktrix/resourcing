@@ -37,16 +37,30 @@
       <v-col
         cols="12"
         md="4"
-        class="py-3 px-5 d-flex justify-center align-center"
-      >
-        <v-img
-          class="rounded align-self-center"
-          style="border: 3px solid white"
-          max-width="300px"
-          :src="
-            require('../assets/img/structure-and-content/External Resources.jpg')
-          "
-        ></v-img>
+        class="pt-3 pt-md-8 pb-8 px-5 d-flex justify-center align-center text-center"
+        ><figure>
+          <v-img
+            class="rounded align-self-center"
+            style="border: 3px solid white"
+            max-width="300px"
+            :src="
+              require('../assets/img/structure-and-content/External Resources.jpg')
+            "
+          ></v-img>
+          <figcaption style="font-size: small">
+            Photo by
+            <a
+              href="https://unsplash.com/@benceboros?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="blank"
+              class="white--text"
+              >BENCE BOROS</a
+            >
+            on
+            <a href="https://unsplash.com/" target="blank" class="white--text"
+              >Unsplash</a
+            >
+          </figcaption>
+        </figure>
       </v-col>
     </v-row>
   </div>

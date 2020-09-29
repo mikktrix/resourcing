@@ -40,16 +40,32 @@
       <v-col
         cols="12"
         md="4"
-        class="py-3 px-5 d-flex justify-center align-center"
+        class="pt-3 pt-md-8 px-5 d-flex justify-center align-center text-center "
       >
-        <v-img
-          class="rounded align-self-center"
-          style="border: 3px solid white"
-          max-width="300px"
-          :src="
-            require('../assets/img/structure-and-content/Responsible Sourcing.jpg')
-          "
-        ></v-img>
+        <figure>
+          <v-img
+            class="rounded align-self-center"
+            style="border: 3px solid white"
+            alt="Post-it notes on a wall"
+            max-width="300px"
+            :src="
+              require('../assets/img/structure-and-content/Responsible Sourcing.jpg')
+            "
+          ></v-img>
+          <figcaption style="font-size: small">
+            Photo by
+            <a
+              href="https://unsplash.com/@nathaliarosa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="blank"
+              class="white--text"
+              >Nathália Rosa</a
+            >
+            on
+            <a href="https://unsplash.com/" target="blank" class="white--text"
+              >Unsplash</a
+            >
+          </figcaption>
+        </figure>
       </v-col>
     </v-row>
     <v-row no-gutters>
