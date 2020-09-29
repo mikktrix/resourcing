@@ -1,5 +1,5 @@
 <template>
-  <div class="roadmaps white--text">
+  <div class="roadmaps ">
     <v-row no-gutters>
       <v-col
         cols="12"
@@ -9,7 +9,7 @@
           'px-12': $vuetify.breakpoint.mdAndUp
         }"
       >
-        <div class="text-h5 font-weight-bold mt-2">
+        <div class="text-h5 primary--text font-weight-bold mt-2">
           Consultations
         </div>
 
@@ -37,9 +37,7 @@
             <p>
               <i
                 >For upcoming and past events, please see
-                <router-link class="white--text link" to="/events"
-                  >Events</router-link
-                >
+                <router-link class=" link" to="/events">Events</router-link>
               </i>
             </p>
           </v-col>

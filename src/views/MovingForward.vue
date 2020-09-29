@@ -1,5 +1,5 @@
 <template>
-  <div class="sector_state_of_plays white--text">
+  <div class="sector_state_of_plays">
     <v-row no-gutters>
       <v-col
         cols="12"
@@ -9,7 +9,7 @@
           'px-12': $vuetify.breakpoint.mdAndUp
         }"
       >
-        <div class="text-h5 font-weight-bold mt-2">
+        <div class="text-h5 primary--text font-weight-bold mt-2">
           Moving forward
         </div>
 
@@ -31,7 +31,7 @@
               <i
                 >For further details on what sectoral issues will be addressed,
                 please see
-                <router-link class="white--text link" to="/target_groups"
+                <router-link class=" link" to="/target_groups"
                   >Target Groups.</router-link
                 ></i
               >
@@ -41,7 +41,7 @@
                 >For more information on Sector Roadmaps and Flagship Cases,
                 please see
                 <a
-                  class="white--text link"
+                  class=" link"
                   href="https://re-sourcing.eu/files/D1.2_in%20RS%20template_FINAL.pdf"
                   target="blank"
                   >RE-SOURCING Report (2): The RE-SOURCING Common Approach</a

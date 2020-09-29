@@ -1,5 +1,5 @@
 <template>
-  <div class="project_outputs white--text">
+  <div class="project_outputs">
     <v-row no-gutters>
       <v-col
         cols="12"
@@ -9,12 +9,12 @@
           'px-12': $vuetify.breakpoint.mdAndUp
         }"
       >
-        <div class="text-h5 font-weight-bold mt-2 mb-6">
+        <div class="text-h5 primary--text font-weight-bold mt-2 mb-6">
           Project Reports
         </div>
 
         <v-row>
-          <v-col cols="12" class="text-h7 text-justify font-weight-bold pb-1">
+          <v-col cols="12" class="text-h7  text-justify font-weight-bold pb-1">
             Report 1 (April, 2020): State-of-play: The International Responsible
             Sourcing Agenda
           </v-col>
@@ -29,7 +29,7 @@
 
           <v-col cols="12" class="text-h7 text-justify mb-6">
             <a
-              class="text-decoration-underline font-italic link white--text"
+              class="text-decoration-underline font-italic link "
               href="https://re-sourcing.eu/files/D1.1_In RS template_FINAL.pdf"
               target="ReportWindow"
               rel="noopener noreferrer"
@@ -39,7 +39,7 @@
         </v-row>
 
         <v-row>
-          <v-col cols="12" class="text-h7 text-justify font-weight-bold pb-1">
+          <v-col cols="12" class="text-h7  text-justify font-weight-bold pb-1">
             Report 2 (April, 2020): The RE-SOURCING Common Approach
           </v-col>
 
@@ -55,7 +55,7 @@
             class="text-h7 text-justify text-decoration-underline font-italic mb-6"
           >
             <a
-              class="text-decoration-underline font-italic link white--text"
+              class="text-decoration-underline font-italic link "
               href="https://re-sourcing.eu/files/D1.2_in RS template_FINAL.pdf"
               target="ReportWindow"
               rel="noopener noreferrer"
@@ -64,7 +64,7 @@
           </v-col>
         </v-row>
 
-        <div class="text-h5 font-weight-bold mt-8 mb-6">
+        <div class="text-h5 primary--text font-weight-bold mt-8 mb-6">
           Briefing Documents
         </div>
 
@@ -89,7 +89,7 @@
             class="text-h7 text-justify text-decoration-underline font-italic mb-6"
           >
             <a
-              class="text-decoration-underline font-italic link white--text"
+              class="text-decoration-underline font-italic link "
               href="https://re-sourcing.eu/files/RE-SOURCING-Briefing-1-12.9.20.pdf"
               target="ReportWindow"
               rel="noopener noreferrer"

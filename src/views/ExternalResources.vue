@@ -1,5 +1,5 @@
 <template>
-  <div class="wiki_on_rs white--text">
+  <div class="wiki_on_rs">
     <v-row no-gutters>
       <v-col
         cols="12"
@@ -10,7 +10,7 @@
           'px-12': $vuetify.breakpoint.mdAndUp
         }"
       >
-        <div class="text-h5 font-weight-bold mt-2">
+        <div class="text-h5 primary--text font-weight-bold mt-2">
           External resources
         </div>
 
@@ -52,13 +52,10 @@
             <a
               href="https://unsplash.com/@benceboros?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
               target="blank"
-              class="white--text"
               >BENCE BOROS</a
             >
             on
-            <a href="https://unsplash.com/" target="blank" class="white--text"
-              >Unsplash</a
-            >
+            <a href="https://unsplash.com/" target="blank">Unsplash</a>
           </figcaption>
         </figure>
       </v-col>

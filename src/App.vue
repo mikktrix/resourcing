@@ -39,18 +39,9 @@ export default {
   computed: {
     bodyColor() {
       let name = this.$route.name;
-      if (
-        name === "Events" ||
-        name === "Home" ||
-        name === "About" ||
-        name === "Purpose and objectives" ||
-        name === "Partners" ||
-        name === "Platform steering committee" ||
-        name === "Advisory board"
-      )
-        return "primary5";
+      if (name === "News" || name === "Contact") return "primary2";
       else if (name === "Target groups") return "primary4";
-      else return "primary2";
+      else return "primary5";
     },
 
     showBottomSheet() {

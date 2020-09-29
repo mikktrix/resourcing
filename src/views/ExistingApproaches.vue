@@ -1,15 +1,15 @@
 <template>
-  <div class="flagship-cases white--text">
+  <div>
     <v-row no-gutters>
       <v-col
         cols="12"
-        class="py-3"
+        class="py-3 "
         :class="{
           'px-5': $vuetify.breakpoint.smAndDown,
           'px-12': $vuetify.breakpoint.mdAndUp
         }"
       >
-        <div class="text-h5 font-weight-bold mt-2">
+        <div class="text-h5 primary--text font-weight-bold mt-2">
           Existing approaches
         </div>
 
@@ -28,7 +28,7 @@
                 >For more details on these and other approaches, please see
                 RE-SOURCING Report (1): State-of-play:
                 <a
-                  class="white--text link"
+                  class="link"
                   href="https://re-sourcing.eu/files/D1.1_In%20RS%20template_FINAL.pdf"
                   >The International Responsible Sourcing Agenda.</a
                 ></i
@@ -55,54 +55,60 @@
                 <a
                   href="https://unsplash.com/@medbadrc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
                   target="blank"
-                  class="white--text"
+                  class=""
                   >Med BadrChemmaoui</a
                 >
                 on
-                <a
-                  href="https://unsplash.com/"
-                  target="blank"
-                  class="white--text"
+                <a href="https://unsplash.com/" target="blank" class=""
                   >Unsplash</a
                 >
               </figcaption>
             </figure>
           </v-col>
         </v-row>
-
-        <v-row
-          no-gutters
-          class="pb-5"
-          v-for="(approach, index) in approaches"
-          :key="index"
-        >
-          <v-col cols="12" class="text-h6 font-weight-bold pb-1">
-            {{ approach.title }}
-          </v-col>
-          <v-col
-            cols="12"
-            lg="4"
-            class="py-3 px-5 d-flex justify-center align-center"
+        <!-- Data -->
+        <v-row>
+          <v-row
+            no-gutters
+            style=""
+            class="pb-5"
+            v-for="(approach, index) in approaches"
+            :key="index"
           >
-            <v-img
-              class="rounded align-self-center"
-              style="border: 3px solid white"
-              max-width="200px"
-              :src="approach.image"
-            ></v-img>
-          </v-col>
-          <v-col cols="12" lg="8">
             <v-col
               cols="12"
-              class="text-h7 text-justify"
-              v-html="approach.text"
+              class="text-h6 font-weight-bold primary--text pb-1"
             >
+              {{ approach.title }}
             </v-col>
-          </v-col>
+
+            <v-col
+              cols="12"
+              md="3"
+              class="py-3 px-5 d-flex justify-center align-center"
+            >
+              <v-img
+                class="rounded align-self-center"
+                style="border: 3px solid white"
+                max-width="200px"
+                :src="approach.image"
+              ></v-img>
+            </v-col>
+            <v-col cols="12" md="9">
+              <v-col
+                cols="12"
+                class="text-h7 text-justify"
+                v-html="approach.text"
+              >
+              </v-col>
+            </v-col>
+          </v-row>
         </v-row>
+        <!-- Data -->
       </v-col>
-    </v-row></div
-></template>
+    </v-row>
+  </div></template
+>
 
 <script>
 export default {
