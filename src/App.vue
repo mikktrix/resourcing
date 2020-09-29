@@ -24,7 +24,19 @@
         ></v-sheet>
       </v-container>
     </v-main>
-
+    <v-btn
+      v-scroll="onScroll"
+      v-show="fab"
+      fab
+      dark
+      fixed
+      bottom
+      right
+      color="primary"
+      @click="toTop"
+    >
+      <v-icon>fas fa-angle-up</v-icon>
+    </v-btn>
     <app-footer />
   </v-app>
 </template>
@@ -35,7 +47,20 @@ import AppFooter from "./components/app_markup/AppFooter";
 import TopToolbar from "./components/app_markup/TopToolbar";
 export default {
   name: "App",
+  data: () => ({
+    fab: false
+  }),
   components: { TopToolbar, AppFooter, AppHeader },
+  methods: {
+    onScroll(e) {
+      if (typeof window === "undefined") return;
+      const top = window.pageYOffset || e.target.scrollTop || 0;
+      this.fab = top > 600;
+    },
+    toTop() {
+      this.$vuetify.goTo(0);
+    }
+  },
   computed: {
     bodyColor() {
       let name = this.$route.name;
