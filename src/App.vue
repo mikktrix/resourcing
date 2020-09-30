@@ -13,7 +13,13 @@
           class="drop-shadow"
         ></v-sheet>
 
-        <router-view :class="{ 'pa-3': addPaddingToRouteView }" />
+        <router-view
+          :class="{
+            'pa-3': addPaddingToRouteView,
+            'max-width-1920': addMaxWidth
+          }"
+          style="margin: auto"
+        />
 
         <v-sheet
           v-if="showBottomSheet"
@@ -65,13 +71,18 @@ export default {
     bodyColor() {
       let name = this.$route.name;
       if (name === "News" || name === "Contact") return "primary2";
-      else if (name === "Target groups") return "primary4";
+      //else if (name === "Target groups") return "primary4";
       else return "primary5";
     },
 
     showBottomSheet() {
       let name = this.$route.name;
       return name === "Events";
+    },
+
+    addMaxWidth() {
+      const name = this.$route.name;
+      return name !== "Home";
     },
 
     addPaddingToRouteView() {
@@ -124,6 +135,10 @@ export default {
 
 .container {
   height: 100%;
+}
+
+.max-width-1920 {
+  max-width: 1920px;
 }
 
 .bottom-sheet {
