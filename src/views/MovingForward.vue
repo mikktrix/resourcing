@@ -32,20 +32,24 @@
                 >For further details on what sectoral issues will be addressed,
                 please see
                 <router-link class=" link" to="/target_groups"
-                  >Target Groups.</router-link
-                ></i
+                  >Target Groups</router-link
+                >.</i
               >
             </p>
             <p class="font-weight-bold">
               <i
                 >For more information on Sector Roadmaps and Flagship Cases,
                 please see
+                <router-link to="/knowledge_hub/project_outputs"
+                  >RE-SOURCING Report</router-link
+                >
+                (2):
                 <a
                   class=" link"
                   href="https://re-sourcing.eu/files/D1.2_in%20RS%20template_FINAL.pdf"
                   target="blank"
-                  >RE-SOURCING Report (2): The RE-SOURCING Common Approach</a
-                >
+                  >The RE-SOURCING Common Approach</a
+                >.
               </i>
             </p>
           </v-col>
@@ -57,7 +61,7 @@
             <v-img
               class="rounded align-self-center"
               style="border: 3px solid white"
-              max-width="400px"
+              max-width="451px"
               :src="
                 require('../assets/img/structure-and-content/Moving Forward.jpg')
               "
@@ -122,7 +126,7 @@ export default {
   data: () => ({
     cards: [
       {
-        title: "Sector state of play",
+        title: "Sector state-of-play",
         show: false,
         text:
           "To afford a better understanding of the state-of-play in three raw material-based sectors: Renewable energy, mobility and electronics and electric equipment, the state-of-play reports will describe existing global and EU focused responsible sourcing approaches."

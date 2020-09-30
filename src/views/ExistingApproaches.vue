@@ -23,10 +23,13 @@
               listed here for informational purpose only.
             </p>
 
-            <p>
+            <p class="font-weight-bold">
               <i
                 >For more details on these and other approaches, please see
-                RE-SOURCING Report (1): State-of-play:
+                <router-link to="/knowledge_hub/project_outputs"
+                  >RE-SOURCING Report</router-link
+                >
+                (1): State-of-play:
                 <a
                   class="link"
                   href="https://re-sourcing.eu/files/D1.1_In%20RS%20template_FINAL.pdf"

@@ -37,7 +37,7 @@
             <p class="font-weight-bold">
               <i
                 >For upcoming and past events, please see
-                <router-link class="link" to="/events">Events</router-link>
+                <router-link class="link" to="/events">Events</router-link>.
               </i>
             </p>
           </v-col>
