@@ -28,13 +28,35 @@
           </v-col>
 
           <v-col cols="12" class="text-h7 text-justify mb-6">
-            <a
+            <!-- <a
               class="text-decoration-underline font-italic link "
               href="https://re-sourcing.eu/files/D1.1_In RS template_FINAL.pdf"
               target="ReportWindow"
               rel="noopener noreferrer"
               >Download report</a
+            > -->
+            <!--             <div
+              class="d-flex flex-row mx-auto mb-2 justify-center"
+              style="max-width: 400px;"
+            > -->
+            <v-btn
+              :fab="$vuetify.breakpoint.xsOnly"
+              href="https://re-sourcing.eu/files/D1.1_In RS template_FINAL.pdf"
+              :large="$vuetify.breakpoint.smAndUp"
+              :height="$vuetify.breakpoint.xsOnly ? 44 : ''"
+              :width="$vuetify.breakpoint.xsOnly ? 44 : ''"
+              color="accent3"
+              target="ReportWindow"
+              title="Download report"
             >
+              <span class="hidden-xs-only text-body-1 align-self-center"
+                >Download</span
+              >
+              <v-icon :right="$vuetify.breakpoint.smAndUp"
+                >fas fa-download</v-icon
+              >
+            </v-btn>
+            <!--             </div> -->
           </v-col>
         </v-row>
 
@@ -50,17 +72,36 @@
             and topical areas.
           </v-col>
 
-          <v-col
-            cols="12"
-            class="text-h7 text-justify text-decoration-underline font-italic mb-6"
-          >
-            <a
+          <v-col cols="12" class="text-h7 text-justify mb-6">
+            <!-- <a
               class="text-decoration-underline font-italic link "
               href="https://re-sourcing.eu/files/D1.2_in RS template_FINAL.pdf"
               target="ReportWindow"
               rel="noopener noreferrer"
               >Download report</a
+            > -->
+            <!--             <div
+              class="d-flex flex-row mx-auto mb-2 justify-center"
+              style="max-width: 400px;"
+            > -->
+            <v-btn
+              :fab="$vuetify.breakpoint.xsOnly"
+              href="https://re-sourcing.eu/files/D1.2_in RS template_FINAL.pdf"
+              :large="$vuetify.breakpoint.smAndUp"
+              :height="$vuetify.breakpoint.xsOnly ? 44 : ''"
+              :width="$vuetify.breakpoint.xsOnly ? 44 : ''"
+              color="accent3"
+              target="ReportWindow"
+              title="Download report"
             >
+              <span class="hidden-xs-only text-body-1 align-self-center"
+                >Download</span
+              >
+              <v-icon :right="$vuetify.breakpoint.smAndUp"
+                >fas fa-download</v-icon
+              >
+            </v-btn>
+            <!--             </div> -->
           </v-col>
         </v-row>
 
@@ -84,17 +125,36 @@
             Responsible Sourcing Agenda” Report.
           </v-col>
 
-          <v-col
-            cols="12"
-            class="text-h7 text-justify text-decoration-underline font-italic mb-6"
-          >
-            <a
+          <v-col cols="12" class="text-h7 text-justify mb-6">
+            <!-- <a
               class="text-decoration-underline font-italic link "
               href="https://re-sourcing.eu/files/RE-SOURCING-Briefing-1-12.9.20.pdf"
               target="ReportWindow"
               rel="noopener noreferrer"
               >Download Briefing Document</a
+            > -->
+            <!--             <div
+              class="d-flex flex-row mx-auto mb-2 justify-center"
+              style="max-width: 400px;"
+            > -->
+            <v-btn
+              :fab="$vuetify.breakpoint.xsOnly"
+              href="https://re-sourcing.eu/files/RE-SOURCING-Briefing-1-12.9.20.pdf"
+              :large="$vuetify.breakpoint.smAndUp"
+              :height="$vuetify.breakpoint.xsOnly ? 44 : ''"
+              :width="$vuetify.breakpoint.xsOnly ? 44 : ''"
+              color="accent3"
+              target="ReportWindow"
+              title="Download report"
             >
+              <span class="hidden-xs-only text-body-1 align-self-center"
+                >Download</span
+              >
+              <v-icon :right="$vuetify.breakpoint.smAndUp"
+                >fas fa-download</v-icon
+              >
+            </v-btn>
+            <!--             </div> -->
           </v-col>
         </v-row>
       </v-col>
