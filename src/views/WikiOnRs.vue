@@ -77,37 +77,85 @@
           }"
         >
           <!-- questions -->
-          <v-row v-for="(question, index) in questions" :key="index">
-            <v-card rounded="0" flat style="width:100%" color="primary5">
-              <v-card-actions
-                class="pa-0"
-                style="cursor: pointer"
-                @click="question.show = !question.show"
+          <v-row class="pt-3">
+            <v-col md="6" cols="12" class="pt-0">
+              <v-card
+                v-for="(question, index) in firstColumnQuestions"
+                :key="index"
+                rounded="0"
+                flat
+                style="width:100%"
+                color="primary5"
               >
-                <v-card-title
-                  class="text-h7 font-weight-bold text-left primary--text"
-                  style="word-break: keep-all; "
+                <v-card-actions
+                  class="pa-0"
+                  style="cursor: pointer"
+                  @click="question.show = !question.show"
                 >
-                  {{ question.question }}
-                </v-card-title>
-                <v-spacer />
+                  <v-card-title
+                    class="text-h7 font-weight-bold text-left primary--text"
+                    style="word-break: keep-all; "
+                  >
+                    {{ question.question }}
+                  </v-card-title>
+                  <v-spacer />
 
-                <v-btn
-                  icon
-                  @click.stop="question.show = !question.show"
-                  aria-label="toggle question"
+                  <v-btn
+                    icon
+                    @click.stop="question.show = !question.show"
+                    aria-label="toggle question"
+                  >
+                    <v-icon v-if="question.show">fas fa-angle-up</v-icon>
+                    <v-icon v-else>fas fa-angle-down</v-icon>
+                  </v-btn>
+                </v-card-actions>
+                <v-card-text
+                  class="d-flex flex-column text-h7 black--text text-justify"
+                  v-if="question.show"
+                  v-html="question.answer"
                 >
-                  <v-icon v-if="question.show">fas fa-angle-up</v-icon>
-                  <v-icon v-else>fas fa-angle-down</v-icon>
-                </v-btn>
-              </v-card-actions>
-              <v-card-text
-                class="d-flex flex-column text-h7 black--text text-justify"
-                v-if="question.show"
-                v-html="question.answer"
+                </v-card-text>
+              </v-card>
+            </v-col>
+            <v-col md="6" cols="12" class="pt-0">
+              <v-card
+                v-for="(question, index) in secondColumnQuestions"
+                :key="index"
+                rounded="0"
+                flat
+                style="width:100%"
+                color="primary5"
               >
-              </v-card-text>
-            </v-card>
+                <v-card-actions
+                  class="pa-0"
+                  style="cursor: pointer"
+                  @click="question.show = !question.show"
+                >
+                  <v-card-title
+                    class="text-h7 font-weight-bold text-left primary--text"
+                    style="word-break: keep-all; "
+                  >
+                    {{ question.question }}
+                  </v-card-title>
+                  <v-spacer />
+
+                  <v-btn
+                    icon
+                    @click.stop="question.show = !question.show"
+                    aria-label="toggle question"
+                  >
+                    <v-icon v-if="question.show">fas fa-angle-up</v-icon>
+                    <v-icon v-else>fas fa-angle-down</v-icon>
+                  </v-btn>
+                </v-card-actions>
+                <v-card-text
+                  class="d-flex flex-column text-h7 black--text text-justify"
+                  v-if="question.show"
+                  v-html="question.answer"
+                >
+                </v-card-text>
+              </v-card>
+            </v-col>
           </v-row>
           <!-- /questions -->
         </v-col>
@@ -133,12 +181,6 @@ export default {
         answer:
           "<p>Apart from commitments to a better world, business competitiveness is increasingly dependent on a firm’s sustainability credentials, and its responsible sourcing practices are part of earning those credentials. With an increase in Environmental Social and Governance (ESG) related investment indices, a firm’s ability to raise finance, attract new employees, access global value chains governed by RS principles, will be dependent on the business strategy it adopts for the future. It also reduces risk exposure, such as reputational and litigation risk.</p>" +
           "<p><i>Future RE-SOURCING Reports will address this in more detail.</p></i>"
-      },
-      {
-        question: "Why does a business need to Responsibly Source?",
-        show: false,
-        answer:
-          "Apart from commitments to a better world, business competitiveness is increasingly dependent on a firm’s sustainability credentials, and its responsible sourcing practices are part of earning those credentials. With an increase in Environmental Social and Governance (ESG) related investment indices, a firm’s ability to raise finance, attract new employees, access global value chains governed by RS principles, will be dependent on the business strategy it adopts for the future. It also reduces risk exposure, such as reputational and litigation risk."
       },
       {
         question:
@@ -190,7 +232,27 @@ export default {
           `<p><i>For more details on project approach and objectives, please see <a class="link" href="https://re-sourcing.eu/about/purpose_and_objectives">Purpose & Objectives</a> for some of the main approaches.</p></i>`
       }
     ]
-  })
+  }),
+  computed: {
+    firstColumnQuestions() {
+      if (this.questions.length % 2 !== 0) {
+        const halfEnd = Math.ceil(this.questions.length / 2);
+        return this.questions.slice(0, halfEnd);
+      } else {
+        let half = this.questions.length / 2;
+        return this.questions.slice(0, half);
+      }
+    },
+    secondColumnQuestions() {
+      if (this.questions.length % 2 !== 0) {
+        const halfStart = Math.ceil(this.questions.length / 2);
+        return this.questions.slice(halfStart, this.questions.length);
+      } else {
+        let half = this.questions.length / 2;
+        return this.questions.slice(half, this.questions.length);
+      }
+    }
+  }
 };
 </script>
 
