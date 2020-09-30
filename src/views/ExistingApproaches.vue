@@ -38,35 +38,33 @@
               >
             </p>
           </v-col>
-          <v-col
-            cols="12"
-            lg="4"
-            class="py-3 px-5 d-flex justify-center align-center text-center"
-          >
-            <figure>
-              <v-img
-                class="rounded align-self-center"
-                style="border: 3px solid white"
-                alt="Notebook with notes"
-                max-width="350px"
-                :src="
-                  require('../assets/img/structure-and-content/Existing approaches.jpg')
-                "
-              ></v-img>
-              <figcaption style="font-size: small">
-                Photo by
-                <a
-                  href="https://unsplash.com/@medbadrc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                  target="blank"
-                  class=""
-                  >Med BadrChemmaoui</a
-                >
-                on
-                <a href="https://unsplash.com/" target="blank" class=""
-                  >Unsplash</a
-                >
-              </figcaption>
-            </figure>
+          <v-col cols="12" lg="4" class="text-center">
+            <div>
+              <figure>
+                <v-img
+                  class="rounded align-self-center"
+                  style="border: 3px solid white; display: block; margin: 0 auto"
+                  alt="Notebook with notes"
+                  max-width="450px"
+                  :src="
+                    require('../assets/img/structure-and-content/Existing approaches.jpg')
+                  "
+                ></v-img>
+                <figcaption style="font-size: small">
+                  Photo by
+                  <a
+                    href="https://unsplash.com/@medbadrc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                    target="blank"
+                    class=""
+                    >Med BadrChemmaoui</a
+                  >
+                  on
+                  <a href="https://unsplash.com/" target="blank" class=""
+                    >Unsplash</a
+                  >
+                </figcaption>
+              </figure>
+            </div>
           </v-col>
         </v-row>
         <!-- Data -->

@@ -13,7 +13,7 @@
           Moving forward
         </div>
 
-        <v-row>
+        <v-row class="d-flex justify-space-between flex-row">
           <v-col cols="12" lg="8" class="text-h7 text-justify">
             <p>
               Within the RE-SOURCING project, sectoral roadmaps, flagship cases
@@ -53,19 +53,17 @@
               </i>
             </p>
           </v-col>
-          <v-col
-            cols="12"
-            lg="4"
-            class="py-3 px-5 d-flex justify-center align-center"
-          >
-            <v-img
-              class="rounded align-self-center"
-              style="border: 3px solid white"
-              max-width="451px"
-              :src="
-                require('../assets/img/structure-and-content/Moving Forward.jpg')
-              "
-            ></v-img>
+          <v-col cols="12" lg="4" class="">
+            <div>
+              <v-img
+                class="rounded"
+                style="border: 3px solid white; display: block; margin: 0 auto"
+                max-width="451px"
+                :src="
+                  require('../assets/img/structure-and-content/Moving Forward.jpg')
+                "
+              ></v-img>
+            </div>
           </v-col>
         </v-row>
         <v-row no-gutters>

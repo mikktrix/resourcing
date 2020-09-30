@@ -34,14 +34,11 @@
         </v-row>
       </v-col>
 
-      <v-col
-        cols="12"
-        md="4"
-        class="pt-3 pt-md-8 pb-8 px-5 d-flex justify-center align-center text-center"
+      <v-col cols="12" md="4" class="pt-3 pt-md-8 pb-8 px-5 text-center"
         ><figure>
           <v-img
             class="rounded align-self-center"
-            style="border: 3px solid white"
+            style="border: 3px solid white; display: block; margin: 0 auto"
             max-width="300px"
             :src="
               require('../assets/img/structure-and-content/External Resources.jpg')
