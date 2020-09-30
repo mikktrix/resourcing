@@ -27,17 +27,17 @@
               involve both physical and virtual events in addition to
               conferences.
             </p>
-            <p>
+            <p class="font-weight-bold">
               <i
                 >As these events take place over the project, this webpage will
                 be updated to include agendas, presentations and summary
                 findings of these events.</i
               >
             </p>
-            <p>
+            <p class="font-weight-bold">
               <i
                 >For upcoming and past events, please see
-                <router-link class=" link" to="/events">Events</router-link>
+                <router-link class="link" to="/events">Events</router-link>
               </i>
             </p>
           </v-col>
@@ -100,7 +100,7 @@
                   <div v-show="event.show">
                     <v-divider></v-divider>
 
-                    <v-card-text>
+                    <v-card-text class="text-justify">
                       {{ event.text }}
                     </v-card-text>
                   </div>

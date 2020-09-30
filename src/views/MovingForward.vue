@@ -27,7 +27,7 @@
                 developed.</i
               >
             </p>
-            <p>
+            <p class="font-weight-bold">
               <i
                 >For further details on what sectoral issues will be addressed,
                 please see
@@ -36,7 +36,7 @@
                 ></i
               >
             </p>
-            <p>
+            <p class="font-weight-bold">
               <i
                 >For more information on Sector Roadmaps and Flagship Cases,
                 please see
@@ -102,7 +102,7 @@
                   <div v-show="card.show">
                     <v-divider></v-divider>
 
-                    <v-card-text>
+                    <v-card-text class="text-justify">
                       {{ card.text }}
                     </v-card-text>
                   </div>
