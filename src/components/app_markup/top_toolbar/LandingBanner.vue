@@ -1,13 +1,15 @@
 <template>
   <div class="d-flex landing-banner" no-gutters>
     <div class="hidden-logo pa-3 align-self-center">
-      <v-img
-        class="project-logo"
-        contain
-        :src="
-          require('../../../assets/logos/project_logo/re-sourcing_transparent.png')
-        "
-      ></v-img>
+      <router-link to="/">
+        <v-img
+          class="project-logo"
+          contain
+          :src="
+            require('../../../assets/logos/project_logo/re-sourcing_transparent.png')
+          "
+        ></v-img>
+      </router-link>
     </div>
 
     <div class="custom-flex-grow-1"></div>
