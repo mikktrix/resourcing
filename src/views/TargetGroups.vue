@@ -133,7 +133,7 @@
                         </v-btn>
                       </v-card-actions>
                       <v-card-text
-                        class="d-flex flex-column"
+                        class="d-flex flex-column text-body-1"
                         v-if="question.show"
                         v-html="question.answer"
                       >
