@@ -75,7 +75,7 @@ video {
   }
 }
 
-@media (min-width: 1150px) and (max-width: 1439px) {
+@media (min-width: 1216px) and (max-width: 1439px) {
   video {
     object-fit: cover;
     height: 320px;
