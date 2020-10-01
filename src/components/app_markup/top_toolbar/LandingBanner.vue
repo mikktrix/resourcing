@@ -55,13 +55,13 @@ video {
   }
 }
 
-@media (min-width: 960px) and (max-width: 1439px) {
+@media (min-width: 960px) and (max-width: 1216px) {
   video {
     object-fit: cover;
   }
 }
 
-@media only screen and (max-width: 1439px) {
+@media only screen and (max-width: 1216px) {
   .hidden-logo {
     display: none !important;
   }
@@ -71,6 +71,14 @@ video {
   }
 
   .project-video {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1150px) and (max-width: 1439px) {
+  video {
+    object-fit: cover;
+    height: 320px;
     width: 100%;
   }
 }
