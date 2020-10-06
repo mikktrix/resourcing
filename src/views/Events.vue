@@ -36,9 +36,12 @@
               class="pa-2 mx-3 my-3"
               hover
               :elevation="hover ? 12 : 4"
-              @click="event.showInfo = !event.showInfo"
             >
-              <div class="d-flex justify-center" style="min-height: 200px;">
+              <div
+                class="d-flex justify-center"
+                style="min-height: 200px;"
+                @click="event.showInfo = !event.showInfo"
+              >
                 <div
                   class="text-h4 primary--text font-weight-light pa-2 align-self-center text-center"
                 >
@@ -46,7 +49,10 @@
                 </div>
               </div>
 
-              <v-card-actions class="pa-0">
+              <v-card-actions
+                class="pa-0"
+                @click="event.showInfo = !event.showInfo"
+              >
                 <v-img
                   :src="
                     require('../assets/logos/project_logo/re-sourcing_transparent.png')
@@ -91,9 +97,12 @@
               :id="event.title.replaceAll(' ', '_')"
               hover
               :elevation="hover ? 12 : 4"
-              @click="event.showInfo = !event.showInfo"
             >
-              <div class="d-flex justify-center" style="min-height: 200px;">
+              <div
+                class="d-flex justify-center"
+                style="min-height: 200px;"
+                @click="event.showInfo = !event.showInfo"
+              >
                 <div
                   class="text-h4 primary--text font-weight-light pa-2 align-self-center text-center"
                 >
@@ -101,7 +110,10 @@
                 </div>
               </div>
 
-              <v-card-actions class="pa-0">
+              <v-card-actions
+                class="pa-0"
+                @click="event.showInfo = !event.showInfo"
+              >
                 <v-img
                   :src="
                     require('../assets/logos/project_logo/re-sourcing_transparent.png')
