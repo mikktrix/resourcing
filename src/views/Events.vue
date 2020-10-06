@@ -191,9 +191,12 @@ export default {
         title: "Roadmap Workshops",
         showInfo: false,
         text: `
-          <div class="text-center font-weight-bold mb-1">Virtual Roadmap Workshop</div>
-          <div class="text-center font-weight-bold mb-3" style="font-size: 14px;">Responsible sourcing in the renewable energy supply chain – a reality or still a long way to go?</div>
-          <div class="text-center font-weight-bold mb-3">on 29 October 2020, 13:00 - 17:00 CET</div>
+          <div class="text-center font-weight-bold mb-3">RE-SOURCING Renewable Energy Sector Virtual Roadmap Workshop</div>
+          <div class="text-center font-weight-bold mb-1">Responsible Sourcing in the Renewable Energy Supply Chain:</div>
+          <div class="text-center font-weight-bold mb-3">A reality or still a long way to go?</div>
+          <div class="text-center font-weight-bold mb-3" >On 29 October 2020, 13:00 - 17:00 CET</div>
+          <div class="text-center font-weight-bold mb-5"><a href="https://www.re-sourcing.eu/files/RE-Sourcing_Roadmap%20WS%20Agenda.pdf" target="blank">Event agenda</a></div>
+          <div class="text-center font-weight-bold mb-5"><a href="https://re-sourcing.eu/files/MUL_Consent%20Form.pdf" target="blank">Participant Information Sheet</a></div>
           <div class="mb-4">The RE-SOURCING project is aiming to develop a roadmap for the renewable energy sector to achieve a sustainable and responsible value chain. To achieve this goal a virtual roadmap workshop will be held on <b>29 October 2020, 13:00 - 17:00 CET</b>.</div>
           <div class="font-weight-bold mb-4">At this workshop, our focus will be on:</div>
           <ul class="mb-4">
@@ -201,7 +204,9 @@ export default {
             <li>manufacturing and recycling of wind turbines and solar panels</li>
             <li>standards for sustainability and responsible sourcing</li>
           </ul>
-          <div>We will shortly provide you with more details about the event.</div>`
+          <div class="text-center font-weight-bold"><a class="link" href="https://forms.office.com/Pages/ResponsePage.aspx?id=eVNxQnDUukC9RL6c3EtOYAn7N1Tlh2lFjRQp-_N3GThUMVEwVldORDVZRkIyUFhTMkFQWFI4UTRZWS4u" target="RegistrationWindow">Register to the 1st RE-SOURCING Virtual Event here</a></div>
+          <div class="text-center pt-5"><img style="width: 140px; margin: auto" src="https://raw.githubusercontent.com/mikktrix/resourcing/master/src/assets/img/QR/RE-SOURCING_Renewable_Energy_Workshop.png" alt="Event QR code"/></div>
+          `
       },
       {
         title: "Flagship Labs",
@@ -218,6 +223,7 @@ export default {
         <div class="text-center font-weight-bold mb-2">RE-SOURCING Virtual Event</div>
         <div class="text-center font-weight-bold mb-2">“Disruptions to Responsible Sourcing; The Good, The Bad and The Ugly”</div>
         <div class="text-center font-weight-bold mb-5">On 9 October 2020, 10:00-13:30 CET</div>
+        <div class="text-center font-weight-bold mb-5"><a href="https://www.re-sourcing.eu/files/Disruptions_to_RS_Agenda.pdf" target="blank">Event agenda</a></div>
         <div class="mb-3"><b>The RE-SOURCING project</b> will be hosting its first virtual event on the <b>9th of October, 10:00 to 13:30 CET</b>. This event will outline the responsible sourcing challenges for businesses transitioning their practices, particularly in the face of emerging challenges from Covid-19 and the expected impetus for materials demand resulting from the Green Deal. The event explores the positives and negatives for responsible sourcing in the short, medium and long term.</div>
         <div class="mb-2"><b>Who should attend this event</b>: Given the disruptions in 2020, the social, environmental and economic impacts and consequences for responsible sourcing within mineral supply chains will be of interest to EU business and those who advocate responsible business practices in the mineral sector. As an industry stakeholder, mining company, EU business incorporating responsible sourcing practices and civil society member, you should attend this event to initiate your engagement with the RE-SOURCING project network.</div>
         <div class="text-center font-weight-bold"><a class="link" href="https://www.eventbrite.at/e/re-sourcing-virtual-event-tickets-119577261809" target="RegistrationWindow">Register to the 1st RE-SOURCING Virtual Event here</a></div>`
