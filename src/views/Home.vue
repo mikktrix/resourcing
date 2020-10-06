@@ -350,7 +350,7 @@
           'px-12': $vuetify.breakpoint.mdAndUp
         }"
       >
-        <div class="text-h6 font-weight-bold mt-2 mb-4">
+        <div class="text-h7 mt-2 mb-4">
           {{ subscribeText }}
         </div>
 
