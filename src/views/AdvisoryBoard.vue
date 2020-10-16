@@ -98,7 +98,7 @@ export default {
         name: "Lucia Mancini",
         title:
           "Scientific officer Joint Research Centre Directorate D – Sustainable Resources",
-        organisation: "European Commission",
+        organisation: "Joint Research Centre | European Commission",
         img: require("../assets/logos/DG_Grow.jpg")
       },
       {
