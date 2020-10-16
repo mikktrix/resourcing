@@ -229,17 +229,17 @@
                   <router-link class="link" to="/events?tab=Virtual Conferences"
                     >RE-SOURCING Virtual Event</router-link
                   >
-                  <a
-                    class="text-decoration-none font-weight-bold red--text link ml-1"
-                    href="https://www.eventbrite.at/e/re-sourcing-virtual-event-tickets-119577261809"
-                    target="RegistrationWindow"
-                    >Registration now open!</a
-                  >
                 </li>
 
                 <li>
                   <router-link class="link" to="/events?tab=Roadmap Workshops"
                     >Virtual Roadmap Workshop</router-link
+                  >
+                  <a
+                    class="text-decoration-none font-weight-bold red--text link ml-1"
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=eVNxQnDUukC9RL6c3EtOYAn7N1Tlh2lFjRQp-_N3GThUMVEwVldORDVZRkIyUFhTMkFQWFI4UTRZWS4u"
+                    target="RegistrationWindow"
+                    >Registration now open!</a
                   >
                 </li>
 
