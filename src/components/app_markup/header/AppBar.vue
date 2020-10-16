@@ -63,8 +63,6 @@
       </v-menu>
 
       <v-btn text to="/target_groups" exact>Target groups</v-btn>
-      <v-btn text to="/news" exact>News</v-btn>
-      <v-btn text to="/events" exact>Events</v-btn>
 
       <v-menu v-model="knowledgeHubDropdown" offset-y>
         <template v-slot:activator="{ on }">
@@ -102,6 +100,9 @@
         </v-list>
       </v-menu>
 
+      <v-btn text to="/news" exact>News</v-btn>
+      <v-btn text to="/events" exact>Events</v-btn>
+
       <v-btn text to="/contact" exact>Contact</v-btn>
     </v-toolbar-items>
     <v-spacer></v-spacer>
@@ -111,7 +112,7 @@
         'd-inline': $vuetify.breakpoint.smAndUp
       }"
     >
-      <v-btn text to="/events?tab=Virtual Conferences" exact
+      <v-btn text to="/events?tab=Roadmap%20Workshops" exact
         ><v-icon class="pr-3">far fa-calendar-alt</v-icon>Next Upcoming Event
       </v-btn></v-toolbar-items
     >
