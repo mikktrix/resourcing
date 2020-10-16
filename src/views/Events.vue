@@ -216,7 +216,7 @@ export default {
             <li>manufacturing and recycling of wind turbines and solar panels</li>
             <li>standards for sustainability and responsible sourcing</li>
           </ul>
-          <div class="text-center font-weight-bold"><a class="link" href="https://forms.office.com/Pages/ResponsePage.aspx?id=eVNxQnDUukC9RL6c3EtOYAn7N1Tlh2lFjRQp-_N3GThUMVEwVldORDVZRkIyUFhTMkFQWFI4UTRZWS4u" target="RegistrationWindow">Register to the 1st RE-SOURCING Virtual Event here</a></div>
+          <div class="text-center font-weight-bold"><a class="link" href="https://forms.office.com/Pages/ResponsePage.aspx?id=eVNxQnDUukC9RL6c3EtOYAn7N1Tlh2lFjRQp-_N3GThUMVEwVldORDVZRkIyUFhTMkFQWFI4UTRZWS4u" target="RegistrationWindow">Register to the Virtual Roadmap Workshop here</a></div>
           <div class="text-center pt-5"><img style="width: 140px; margin: auto" src="https://raw.githubusercontent.com/mikktrix/resourcing/master/src/assets/img/QR/RE-SOURCING_Renewable_Energy_Workshop.png" alt="Event QR code"/></div>
           `
       },
