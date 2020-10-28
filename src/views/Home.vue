@@ -581,6 +581,12 @@ export default {
         institute_extra: "Institute for Managing Sustainability",
         job: "Project Coordination & Research",
         img: require("../assets/img/members/alexander_graf.jpg")
+      },
+      {
+        name: "Andrew van Zyl",
+        institute: "SRK Consulting (South Africa)",
+        job: "Director and Principal Consultant",
+        img: require("../assets/img/members/andrew_van_zyl.jpg")
       }
     ]
   }),

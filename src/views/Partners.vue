@@ -141,6 +141,13 @@ export default {
         img: require("../assets/logos/Lulea_Universitet.jpg"),
         text:
           "Luleå University of Technology (LTU) develops the attractive sustainable society through research and education. Many of LTU research subjects are related to different aspects of sustainability: natural resource management, sustainable urban development, waste management and recycling. LTU will utilise its connection with the Swedish and European mineral industry through its affiliation to boards and expert groups, as well as with international non-EU partner universities and organisations."
+      },
+      {
+        name: "SRK Consulting (South Africa), South Africa",
+        link: "www.srk.com",
+        img: require("../assets/logos/SRK.jpg"),
+        text:
+          "SRK Consulting is an independent, international consulting practice providing focused advice and solutions to clients, mainly in the earth and water resource industries. SRK Consulting offers specialist services for the entire life cycle of a mining project from exploration to closure and across the full spectrum of mineral commodities. The industry background of many of their staff ensures that their advice is not only technically sound but also thoroughly practical. The SRK Group is an employee-owned organization and does not hold equity in any project. This permits SRK Consulting consultants to provide clients with conflict-free and objective support on crucial issues. SRK Consulting clients include many of the world’s major, medium-sized and junior metal and industrial mineral mining houses, exploration companies, financial institutions, construction firms, and government departments."
       }
     ]
   })
