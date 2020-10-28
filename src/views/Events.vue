@@ -235,11 +235,27 @@ export default {
         <div class="text-center font-weight-bold mb-2">RE-SOURCING Virtual Event</div>
         <div class="text-center font-weight-bold mb-2">“Disruptions to Responsible Sourcing; The Good, The Bad and The Ugly”</div>
         <div class="text-center font-weight-bold mb-5">On 9 October 2020, 10:00-13:30 CET</div>
-        <div class="text-center font-weight-bold mb-5"><a href="https://www.re-sourcing.eu/files/Disruptions_to_RS_Agenda.pdf" target="blank">Event agenda</a></div>
-        <div class="mb-3"><b>The RE-SOURCING project</b> will be hosting its first virtual event on the <b>9th of October, 10:00 to 13:30 CET</b>. This event will outline the responsible sourcing challenges for businesses transitioning their practices, particularly in the face of emerging challenges from Covid-19 and the expected impetus for materials demand resulting from the Green Deal. The event explores the positives and negatives for responsible sourcing in the short, medium and long term.</div>
-        <div class="mb-2"><b>Who should attend this event</b>: Given the disruptions in 2020, the social, environmental and economic impacts and consequences for responsible sourcing within mineral supply chains will be of interest to EU business and those who advocate responsible business practices in the mineral sector. As an industry stakeholder, mining company, EU business incorporating responsible sourcing practices and civil society member, you should attend this event to initiate your engagement with the RE-SOURCING project network.</div>
-        <div class="text-center font-weight-bold"><a class="link" href="https://www.eventbrite.at/e/re-sourcing-virtual-event-tickets-119577261809" target="RegistrationWindow">Register to the 1st RE-SOURCING Virtual Event here</a></div>`
+        <div class="text-center font-weight-bold mb-5">THANK YOU!</div>
+        <div class="text-center font-weight-bold mb-2"><a href="https://www.re-sourcing.eu/files/Disruptions_to_RS_Agenda.pdf" target="blank">Event agenda</a></div>
+        <div class="text-center font-weight-bold mb-5"><a href="https://www.re-sourcing.eu/files/Disruptions_to_Responsible_Sourcing_Briefing.pdf" target="blank">Post event briefing</a></div>
+        <div class="mb-3">The RE-SOURCING project team would like to thank you for taking part in our first virtual event: <b>Disruptions to Responsible Sourcing; The Good, The Bad & The Ugly.</b></div>
+        <div class="mb-2">The event was a great success for us, with plenty of interesting presentations, discussions, questions and comments that we will take on as input for our project!</div>
+        <div class="mb-3">The event outlined the responsible sourcing challenges for businesses transitioning their practices, particularly in the face of emerging challenges from Covid-19 and the expected impetus for materials demand resulting from the Green Deal. Together, we explored the positives and negatives for responsible sourcing in the short, medium and long term.</div>
+        <div class="mb-3">Here is a quick recap teaser for those of you who participated, and a small taste for those who were not able to do so: </div>
+        <div style="max-width: 560px; margin: auto">
+        <div class="mt-4 mb-4 video-container">
+            <iframe class="video" width="560" height="315" title="Disruptions to responsible sourcing after-movie" src="https://www.youtube.com/embed/3K2OQiqMXUI" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+        <div class="mb-3">Here is a quick recap teaser for those of you who participated, and a small taste for those who were not able to do so: </div>
+        <div class="mb-5"><a href="https://www.facebook.com/GoodElectronics-Network-181391811880541/" target="blank">https://www.facebook.com/GoodElectronics-Network-181391811880541/ </a></div>
+        <div class="mb-3">Here you can <b>find the event’s two panel discussions</b> about the impact of COVID-19 and the Green Deal on Responsible Sourcing:</div>
+        <div class="">COVID-19: <a href="https://youtu.be/0HI6yeAA3cM" target="blank">https://youtu.be/0HI6yeAA3cM</a></div>
+        <div class="mb-5">EU Green Deal: <a href="https://youtu.be/ioqfUXJ9QGY" target="blank">https://youtu.be/ioqfUXJ9QGY</a></div>
+        <div class="mb-2">You can also read our <b><a href="https://www.re-sourcing.eu/files/Disruptions_to_Responsible_Sourcing_Briefing.pdf" target="blank">short briefing</a></b> on the event’s most important outcomes.</div>
+      `
       }
+
       // {
       //   title: "Webinars",
       //   showInfo: false,
@@ -291,4 +307,18 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.video-container {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
