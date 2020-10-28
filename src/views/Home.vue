@@ -239,7 +239,7 @@
                     class="text-decoration-none font-weight-bold red--text link ml-1"
                     href="https://forms.office.com/Pages/ResponsePage.aspx?id=eVNxQnDUukC9RL6c3EtOYAn7N1Tlh2lFjRQp-_N3GThUMVEwVldORDVZRkIyUFhTMkFQWFI4UTRZWS4u"
                     target="RegistrationWindow"
-                    >Registration now open!</a
+                    >Registration closed</a
                   >
                 </li>
 
