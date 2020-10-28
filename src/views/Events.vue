@@ -247,7 +247,7 @@ export default {
             <iframe class="video" width="560" height="315" title="Disruptions to responsible sourcing after-movie" src="https://www.youtube.com/embed/3K2OQiqMXUI" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         </div>
-        <div class="mb-3">Here is a quick recap teaser for those of you who participated, and a small taste for those who were not able to do so: </div>
+        <div class="mb-3">In case you were not able to attend the event, you can view the recording at:</div>
         <div class="mb-5"><a href="https://www.facebook.com/GoodElectronics-Network-181391811880541/" target="blank">https://www.facebook.com/GoodElectronics-Network-181391811880541/ </a></div>
         <div class="mb-3">Here you can <b>find the event’s two panel discussions</b> about the impact of COVID-19 and the Green Deal on Responsible Sourcing:</div>
         <div class="">COVID-19: <a href="https://youtu.be/0HI6yeAA3cM" target="blank">https://youtu.be/0HI6yeAA3cM</a></div>
