@@ -216,7 +216,7 @@ export default {
             <li>manufacturing and recycling of wind turbines and solar panels</li>
             <li>standards for sustainability and responsible sourcing</li>
           </ul>
-          <div class="text-center text-decoration-none font-weight-bold red--text link ml-1">Registration closed!</div>
+          <div class="text-center text-decoration-none font-weight-bold red--text ml-1">Registration closed!</div>
           
           `
       },

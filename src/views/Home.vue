@@ -235,11 +235,9 @@
                   <router-link class="link" to="/events?tab=Roadmap Workshops"
                     >Virtual Roadmap Workshop</router-link
                   >
-                  <a
-                    class="text-decoration-none font-weight-bold red--text link ml-1"
-                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=eVNxQnDUukC9RL6c3EtOYAn7N1Tlh2lFjRQp-_N3GThUMVEwVldORDVZRkIyUFhTMkFQWFI4UTRZWS4u"
-                    target="RegistrationWindow"
-                    >Registration closed</a
+                  <span
+                    class="text-decoration-none font-weight-bold red--text ml-1"
+                    >Registration closed</span
                   >
                 </li>
 
