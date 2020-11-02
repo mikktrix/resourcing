@@ -17,7 +17,7 @@
             SAVE THE DATE - RE-SOURCING Opening Conference
           </div>
 
-          <div class="text-h7 mb-3 text-justify">
+          <div class="text-h7 mb-4 text-justify">
             The Opening Conference of the <b>RE-SOURCING project</b> will take
             place on <b>18-19 January 2021</b>. It is currently planned as
             physical event for 150 participants in Vienna. However, due to the
@@ -28,7 +28,7 @@
           </div>
 
           <router-link class="text-decoration-none" to="/events?tab=Conferences"
-            ><v-btn small color="accent3" aria-label="Go to event info">
+            ><v-btn large color="accent3" aria-label="Go to event info">
               Read more
             </v-btn></router-link
           >
