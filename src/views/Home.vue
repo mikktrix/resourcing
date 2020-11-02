@@ -10,51 +10,74 @@
           'px-12': $vuetify.breakpoint.mdAndUp
         }"
       >
-        <div
-          class="primary--text text-h5 font-weight-bold mt-2 mb-5 text-justify"
-        >
-          RE-SOURCING - Make your case for Responsible Sourcing!
-        </div>
+        <div>
+          <div
+            class="primary--text text-h5 font-weight-bold mt-5 mb-5 text-justify"
+          >
+            SAVE THE DATE - RE-SOURCING Opening Conference
+          </div>
 
-        <div class="text-h7 mb-3 text-justify">
-          Responsible Sourcing is becoming a reality for more and more
-          businesses, NGOs, and policymakers. Everyone is striving to keep ahead
-          of rapidly evolving ecological and social needs, company practices,
-          business models, government regulations, and initiatives spearheaded
-          by civil society, etc.
-        </div>
+          <div class="text-h7 mb-3 text-justify">
+            The Opening Conference of the <b>RE-SOURCING project</b> will take
+            place on <b>18-19 January 2021</b>. It is currently planned as
+            physical event for 150 participants in Vienna. However, due to the
+            current COVID-19 situation, a decision about the conference being
+            held physically in Vienna, as a fully virtual event, or a hybrid
+            event (with participants attending the event physically in Vienna,
+            while other will joint virtually) will be taken at a later stage.
+          </div>
 
-        <div class="text-h7 mb-3 text-justify">
-          In response to the growing challenge of responsible sourcing, the
-          Vienna University of Economics and Business, together with 11
-          international partners, started the RE-SOURCING Global Stakeholder
-          Platform in 2020.
-        </div>
+          <router-link class="text-decoration-none" to="/events?tab=Conferences"
+            ><v-btn small color="accent3" aria-label="Go to event info">
+              Read more
+            </v-btn></router-link
+          >
 
-        <div class="text-h7 text-justify">
-          Over the period of four years, the RE-SOURCING Platform will help
-          decision-makers in industry, public policy and civil society to:
-        </div>
+          <div
+            class="primary--text text-h5 font-weight-bold mt-10 mb-5 text-justify"
+          >
+            RE-SOURCING - Make your case for Responsible Sourcing!
+          </div>
 
-        <div
-          class="mt-2"
-          :class="{
-            'video-container': $vuetify.breakpoint.mdAndDown,
-            'text-center': $vuetify.breakpoint.lgAndUp
-          }"
-        >
-          <iframe
-            title="RE-SOURCING video introduction"
+          <div class="text-h7 mb-3 text-justify">
+            Responsible Sourcing is becoming a reality for more and more
+            businesses, NGOs, and policymakers. Everyone is striving to keep
+            ahead of rapidly evolving ecological and social needs, company
+            practices, business models, government regulations, and initiatives
+            spearheaded by civil society, etc.
+          </div>
+
+          <div class="text-h7 mb-3 text-justify">
+            In response to the growing challenge of responsible sourcing, the
+            Vienna University of Economics and Business, together with 11
+            international partners, started the RE-SOURCING Global Stakeholder
+            Platform in 2020.
+          </div>
+
+          <div class="text-h7 text-justify">
+            Over the period of four years, the RE-SOURCING Platform will help
+            decision-makers in industry, public policy and civil society to:
+          </div>
+
+          <div
+            class="mt-2 mb-3"
             :class="{
-              video: $vuetify.breakpoint.mdAndDown,
-              'video-large-screen': $vuetify.breakpoint.lgAndUp
+              'video-container': $vuetify.breakpoint.mdAndDown,
+              'text-center': $vuetify.breakpoint.lgAndUp
             }"
-            src="https://www.youtube.com/embed/_Vyx1wkvTgE"
-            allowfullscreen
-            frameborder="0"
-          ></iframe>
+          >
+            <iframe
+              title="RE-SOURCING video introduction"
+              :class="{
+                video: $vuetify.breakpoint.mdAndDown,
+                'video-large-screen': $vuetify.breakpoint.lgAndUp
+              }"
+              src="https://www.youtube.com/embed/_Vyx1wkvTgE"
+              allowfullscreen
+              frameborder="0"
+            ></iframe>
+          </div>
         </div>
-
         <v-row>
           <v-col cols="12" sm="6">
             <v-card
@@ -659,5 +682,10 @@ export default {
 .link:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+
+.container-top-left {
+  max-width: 1340px;
+  margin: auto;
 }
 </style>
