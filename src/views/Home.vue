@@ -11,7 +11,50 @@
         }"
       >
         <div>
-          <div
+          <v-card class="px-2 pb-2" style="">
+            <v-card-title
+              class="primary--text text-h5 font-weight-bold mt-5 mb-3 text-justify"
+              style="word-break: break-word; "
+              >SAVE THE DATE - RE-SOURCING Opening Conference</v-card-title
+            >
+            <v-card-subtitle
+              class="secondary--text text-h7 font-weight-bold pb-4s"
+              >18-19 January 2021</v-card-subtitle
+            >
+
+            <v-card-text class="text-h7 text-justify">
+              <p>
+                The EU Green New Deal will lead to a significant increase in the
+                consumption of mineral resources, which are the material
+                backbone of many green technologies. At the same time, new legal
+                requirements and policy strategies at the EU and national levels
+                require adherence to increasingly stringent environmental and
+                social standards, strongly influencing the sourcing of these
+                minerals. Against this background, the
+                <b>RE-SOURCING Virtual Opening Conference</b> will focus on the
+                various aspects of implementing responsible sourcing from the
+                business and policy perspective.
+              </p>
+
+              The conference will <b>take place online</b> and host over 250
+              participants with representatives from all relevant stakeholder
+              groups (industry, policy, CSOs and research) across Europe, Latin
+              America, Africa and Asia, offering an excellent opportunity to
+              learn, exchange and network.
+            </v-card-text>
+
+            <v-card-actions class="d-flex flex-wrap ">
+              <router-link
+                class="text-decoration-none"
+                to="/events?tab=Virtual Conferences"
+                ><v-btn large color="accent3" aria-label="Go to event info">
+                  Read more
+                </v-btn></router-link
+              >
+            </v-card-actions>
+          </v-card>
+
+          <!-- <div
             class="primary--text text-h5 font-weight-bold mt-5 mb-5 text-justify"
           >
             SAVE THE DATE - RE-SOURCING Opening Conference
@@ -31,7 +74,7 @@
             ><v-btn large color="accent3" aria-label="Go to event info">
               Read more
             </v-btn></router-link
-          >
+          > -->
 
           <div
             class="primary--text text-h5 font-weight-bold mt-10 mb-5 text-justify"
@@ -173,21 +216,31 @@
 
               <ul class="ml-4 pr-4 pb-2">
                 <li>
-                  <router-link class="link" to="/news"
-                    >Newsletter: September 2020</router-link
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://mailchi.mp/6330fb173aa0/re-sourcing-newsletter-september-4448302?e=[UNIQID]"
+                    >Newsletter: September 2020</a
+                  >
+                </li>
+                <li>
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://www.wu.ac.at/en/sustainability/news-details/detail/eu-project-re-sourcing-successful-project-kick-off-meeting-at-the-wu-vienna"
+                    >EU project RE-SOURCING: Successful project Kick-off meeting
+                    at the WU Vienna</a
                   >
                 </li>
               </ul>
 
               <!-- Todo: Disabled Twitter feed for now -->
-              <v-card-text class="px-0 py-2" v-if="false">
+              <!-- <v-card-text class="px-0 py-2" v-if="false">
                 <a
                   class="twitter-timeline"
                   data-height="400"
                   href="https://twitter.com/re_sourcing?ref_src=twsrc%5Etfw"
                   >Tweets by re_sourcing</a
                 >
-              </v-card-text>
+              </v-card-text> -->
 
               <v-card-actions class="d-flex flex-wrap">
                 <v-btn
@@ -250,23 +303,12 @@
               <ul class="ml-4 pr-4 pb-2">
                 <li>
                   <router-link class="link" to="/events?tab=Virtual Conferences"
-                    >RE-SOURCING Virtual Event</router-link
-                  >
-                </li>
-
-                <li>
-                  <router-link class="link" to="/events?tab=Roadmap Workshops"
-                    >Virtual Roadmap Workshop</router-link
+                    >Opening Conference</router-link
                   >
                   <span
                     class="text-decoration-none font-weight-bold red--text ml-1"
-                    >Registration closed</span
                   >
-                </li>
-
-                <li>
-                  <router-link class="link" to="/events?tab=Conferences"
-                    >Opening Conference</router-link
+                    - Registration open!</span
                   >
                 </li>
               </ul>
