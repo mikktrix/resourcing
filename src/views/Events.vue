@@ -232,7 +232,7 @@ export default {
         <div class="text-center font-weight-bold mb-5">18-19 January 2021</div>
         
         <div class="mb-2">The EU Green New Deal will lead to a significant increase in the consumption of mineral resources, which are the material backbone of many green technologies. At the same time, new legal requirements and policy strategies at the EU and national levels require adherence to increasingly stringent environmental and social standards, strongly influencing the sourcing of these minerals.</div>
-        <div class="mb-3">The <b>RE-SOURCING Virtual Opening Conference</b> will focus on the various aspects of implementing responsible sourcing from the business and policy perspective. </div>
+        <div class="mb-3">The <b>RE-SOURCING Virtual Opening Conference</b> will focus on the various aspects of implementing responsible sourcing from the business, civil society and policy perspective. </div>
         <div class="mb-3">The conference will look at the future of <b>responsible sourcing and its implementation in Europe</b> including recent developments such as the launch of the Critical Raw Materials Action Plan, European Raw Materials Alliance, and the Conflict Minerals Regulation that is coming into force in 2021. In addition, we will equally address the <b>global situation of responsible sourcing</b>, how it affects and is affected by European policies, business practices and more.</div>
        
         <div class="mb-3">The conference will <b>take place online</b> and host over 250 participants with representatives from all relevant stakeholder groups (industry, policy, CSOs and research) across Europe, Latin America, Africa and Asia, offering an excellent opportunity to learn, exchange and network.</div>

@@ -33,7 +33,7 @@
                 minerals. Against this background, the
                 <b>RE-SOURCING Virtual Opening Conference</b> will focus on the
                 various aspects of implementing responsible sourcing from the
-                business and policy perspective.
+                business, civil society and policy perspective.
               </p>
 
               The conference will <b>take place online</b> and host over 250
