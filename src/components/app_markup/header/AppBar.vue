@@ -112,7 +112,7 @@
         'd-inline': $vuetify.breakpoint.smAndUp
       }"
     >
-      <v-btn text to="/events?tab=Roadmap%20Workshops" exact
+      <v-btn text to="/events?tab=Virtual Conferences" exact
         ><v-icon class="pr-3">far fa-calendar-alt</v-icon>Next Upcoming Event
       </v-btn></v-toolbar-items
     >
