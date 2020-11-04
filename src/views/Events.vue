@@ -237,7 +237,7 @@ export default {
        
         <div class="mb-3">The conference will <b>take place online</b> and host over 250 participants with representatives from all relevant stakeholder groups (industry, policy, CSOs and research) across Europe, Latin America, Africa and Asia, offering an excellent opportunity to learn, exchange and network.</div>
         <div class="mb-5">Please stay tuned and block the dates in your calendar - More detailed information on the agenda will be provided soon!</div>
-        <div class="mb-3 font-weight-bold text-center"><a href="https://www.eventbrite.at/e/re-sourcing-opening-conference-registration-127671046537" target="blank" rel="noreferrer noopener">Register here for the RE-SOURCING Opening Conference </a></div>
+        <div class="mb-3 font-weight-bold text-center"><a href="https://www.eventbrite.at/e/re-sourcing-virtual-opening-conference-registration-127671046537" target="blank" rel="noreferrer noopener">Register here for the RE-SOURCING Opening Conference </a></div>
 
       `
       }
