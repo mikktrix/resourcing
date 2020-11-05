@@ -280,17 +280,14 @@ export default {
           <div class="text-center font-weight-bold mb-3">RE-SOURCING Renewable Energy Sector Virtual Roadmap Workshop</div>
           <div class="text-center font-weight-bold mb-1">Responsible Sourcing in the Renewable Energy Supply Chain:</div>
           <div class="text-center font-weight-bold mb-3">A reality or still a long way to go?</div>
-          <div class="text-center font-weight-bold mb-3" >On 29 October 2020, 13:00 - 17:00 CET</div>
-          <div class="text-center font-weight-bold mb-5"><a href="https://www.re-sourcing.eu/files/RE-Sourcing_Roadmap%20WS%20Agenda.pdf" target="blank">Event agenda</a></div>
-          <div class="text-center font-weight-bold mb-5"><a href="https://re-sourcing.eu/files/MUL_Consent%20Form.pdf" target="blank">Participant Information Sheet</a></div>
-          <div class="mb-4">The RE-SOURCING project is aiming to develop a roadmap for the renewable energy sector to achieve a sustainable and responsible value chain. To achieve this goal a virtual roadmap workshop will be held on <b>29 October 2020, 13:00 - 17:00 CET</b>.</div>
-          <div class="font-weight-bold mb-4">At this workshop, our focus will be on:</div>
-          <ul class="mb-4">
-            <li>mining & processing of copper, rare earth elements, and silicon</li>
-            <li>manufacturing and recycling of wind turbines and solar panels</li>
-            <li>standards for sustainability and responsible sourcing</li>
-          </ul>
-          <div class="text-center text-decoration-none font-weight-bold red--text ml-1">Registration closed!</div>
+          
+          <div class="pt-3 mb-4">On 29 October 2020 MontanuniversitätLeoben hosted the first Roadmap Workshop of the RE-SOURCING project “Responsible Sourcing in the Renewable Energy Supply Chain: A reality or still a long way to go?” as a virtual event.</div>
+          <div class="mb-4">We would like to thank you for your participation and for joining us in the discussion about the current situation of the renewable energy sector and necessary developments to ensure a sustainable and responsible supply.</div>
+          <div class="mb-4">The discussion basis was formed by the previously finished report “State of play and roadmap concepts for the renewable energy sector” (D4.1). Talks revolved around the <b>mining</b> of copper, rare earth elements, and silicon required for the <b>manufacturing</b> of wind turbines and solar PV panels and finally the <b>recycling</b> of the equipment.</div>
+          <div class="mb-4">D4.1 is now in the validation phase and we welcome any comments or feedback that will help to enhance the report.We would also like to ask all participants to continue participating in the roadmap development process and to support us with their expertise. </div>
+          <div class="mb-4">Furthermore, the presentations and a summary of the event are available for download <a href="https://www.re-sourcing.eu/files/RE_Virtual_Roadmap_Workshop_Presentations.7z" download>here</a> (.7z, 6.6 MB).</div>
+          <div class="mb-4">We encourage you to contact us if you were not able to attend the workshop but would like to be involved in the development of the roadmap for the renewable energy sector.</div>
+          <div class="mb-4 text-left">Marie-Theres Kügerl, Montanuniversität Leoben, <br/><a href="mailto:marie-theres.kuegerl@unileoben.ac.at">marie-theres.kuegerl[at]unileoben.ac.at</a></div>
 
           `
       }
