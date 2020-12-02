@@ -15,32 +15,30 @@
             <v-card-title
               class="primary--text text-h5 font-weight-bold mt-5 mb-3 text-justify"
               style="word-break: break-word; "
-              >SAVE THE DATE - RE-SOURCING Opening Conference</v-card-title
-            >
-            <v-card-subtitle
-              class="secondary--text text-h7 font-weight-bold pb-4s"
-              >18-19 January 2021</v-card-subtitle
-            >
+              >RE-SOURCING Virtual Opening Conference
+            </v-card-title>
+            <v-card-subtitle class="secondary--text text-h7 font-weight-bold"
+              >Drivers of Responsible Sourcing: Find Common Ground, Prompt
+              Collective Action, Create Lasting Change
+              <p class="pt-3 text-h7 body--text">
+                18-19 January
+              </p>
+            </v-card-subtitle>
 
             <v-card-text class="text-h7 text-justify">
               <p>
-                The EU Green New Deal will lead to a significant increase in the
-                consumption of mineral resources, which are the material
-                backbone of many green technologies. At the same time, new legal
-                requirements and policy strategies at the EU and national levels
-                require adherence to increasingly stringent environmental and
-                social standards, strongly influencing the sourcing of these
-                minerals. Against this background, the
-                <b>RE-SOURCING Virtual Opening Conference</b> will focus on the
-                various aspects of implementing responsible sourcing from the
-                business, civil society and policy perspective.
+                The RE-SOURCING Project is hosting its Virtual Opening
+                Conference –
+                <b
+                  >“Drivers of Responsible Sourcing: Find Common Ground, Prompt
+                  Collective Action, Create Lasting Change”!</b
+                >
               </p>
 
-              The conference will <b>take place online</b> and host over 250
-              participants with representatives from all relevant stakeholder
-              groups (industry, policy, CSOs and research) across Europe, Latin
-              America, Africa and Asia, offering an excellent opportunity to
-              learn, exchange and network.
+              The virtual event will host
+              <b>150+ participants from across the globe</b> and
+              <b>we cordially invite you to join us:</b> Learn from and engage
+              with high-level experts from business, policy and civil society!
             </v-card-text>
 
             <v-card-actions class="d-flex flex-wrap ">
@@ -53,7 +51,6 @@
               >
             </v-card-actions>
           </v-card>
-
           <!-- <div
             class="primary--text text-h5 font-weight-bold mt-5 mb-5 text-justify"
           >
@@ -563,15 +560,13 @@ export default {
       },
       {
         name: "Annika Glatz",
-        institute:
-          "AHK Chile (German-Chilean Chamber of Commerce and Industry)",
+        institute: "AHK Chile, Chilean-German Chamber of Commerce and Industry",
         job: "Leader Mining & Sustainability",
         img: require("../assets/img/members/annika_glatz.jpg")
       },
       {
         name: "Iris Wunderlich",
-        institute:
-          "AHK Chile (German-Chilean Chamber of Commerce and Industry)",
+        institute: "AHK Chile, Chilean-German Chamber of Commerce and Industry",
         job: "Senior Project Manager Energy, Mining & Sustainability",
         img: require("../assets/img/members/iris_wunderlich.jpg")
       },
@@ -639,17 +634,35 @@ export default {
         img: require("../assets/img/members/noe_barriere.jpg")
       },
       {
-        name: "Alexander Graf",
-        institute: "Vienna University of Economics and Business",
-        institute_extra: "Institute for Managing Sustainability",
-        job: "Project Coordination & Research",
-        img: require("../assets/img/members/alexander_graf.jpg")
+        name: "Roger Dixon",
+        institute: "SRK Consulting (South Africa)",
+        job: "Corporate Consultant",
+        img: require("../assets/img/members/roger_dixon.jpg")
+      },
+      {
+        name: "Lisl Pullinger",
+        institute: "SRK Consulting (South Africa)",
+        job: "Principal Sustainability Consultant",
+        img: require("../assets/img/members/lisl_pullinger.jpg")
+      },
+      {
+        name: "Bjanka Korb",
+        institute: "SRK Consulting (South Africa)",
+        job: "Senior Environmental Engineer",
+        img: require("../assets/img/members/bjanka_korb.jpg")
       },
       {
         name: "Andrew van Zyl",
         institute: "SRK Consulting (South Africa)",
         job: "Director and Principal Consultant",
         img: require("../assets/img/members/andrew_van_zyl.jpg")
+      },
+      {
+        name: "Alexander Graf",
+        institute: "Vienna University of Economics and Business",
+        institute_extra: "Institute for Managing Sustainability",
+        job: "Project Coordination & Research",
+        img: require("../assets/img/members/alexander_graf.jpg")
       }
     ]
   }),
