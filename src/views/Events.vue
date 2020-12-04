@@ -236,8 +236,8 @@ export default {
         <div class="mb-5 font-weight-bold text-center"><a href="https://www.eventbrite.at/e/re-sourcing-virtual-opening-conference-registration-127671046537" target="blank" rel="noreferrer noopener">Register</a></div>
         
         <div class="mb-2 font-weight-bold text-center">Please mark this event in your calendar:</div>
-        <div class="text-center"><a href="https://mcusercontent.com/4131de53447fbeab61124f6d0/files/5fbd837f-3c04-4ad1-836e-20da6a7e4357/RE_SOURCING_Opening_Conference_Day_1.ics" target="blank" rel="noreferrer noopener">Calendar invitation Day 1: January 18 – 12:30-17:30 CET</a></div>
-        <div class="mb-5 text-center"><a href="https://mcusercontent.com/4131de53447fbeab61124f6d0/files/bb3e3f3c-f118-496d-a357-f138d10affcd/RE_SOURCING_Opening_Conference_Day_2.ics" target="blank" rel="noreferrer noopener">Calendar invitation Day 2: January 19 – 10:00-16:00 CET</a></div>
+        <div class="text-center"><a href="https://www.re-sourcing.eu/files/RE-SOURCING_Opening_Conference_Day1.ics" target="blank" download">Calendar invitation Day 1: January 18 – 12:30-17:30 CET</a></div>
+        <div class="mb-5 text-center"><a href="https://www.re-sourcing.eu/files/RE-SOURCING_Opening_Conference_Day2.ics" target="blank" rel="noreferrer noopener" download>Calendar invitation Day 2: January 19 – 10:00-16:00 CET</a></div>
         
         <div class="mb-3">The RE-SOURCING Project is hosting its Virtual Opening Conference – <b>“Drivers of Responsible Sourcing: Find Common Ground, Prompt Collective Action, Create Lasting Change”</b> – on 18th-19th January 2021!</div>
         <div class="mb-5">The virtual event will host <b>150+ participants from across the globe</b> and <b>we cordially invite you to join us:</b> Learn from and engage with high-level experts from business, policy and civil society! </div>
