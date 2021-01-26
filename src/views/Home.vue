@@ -302,11 +302,11 @@
                   <router-link class="link" to="/events?tab=Virtual Conferences"
                     >Opening Conference</router-link
                   >
-                  <span
+                  <!-- <span
                     class="text-decoration-none font-weight-bold red--text ml-1"
                   >
                     - Registration open!</span
-                  >
+                  > -->
                 </li>
               </ul>
 

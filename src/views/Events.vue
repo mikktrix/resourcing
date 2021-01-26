@@ -23,10 +23,14 @@
         </v-col>
       </v-row>
 
-      <v-row no-gutters class="justify-center">
+      <v-row
+        no-gutters
+        class="justify-center mx-auto"
+        style="max-width: 1440px;"
+      >
         <v-col
           cols="12"
-          lg="4"
+          lg="6"
           v-for="(event, index) in physicalEvents"
           :key="index"
         >
@@ -83,10 +87,14 @@
         >Virtual events</v-card-title
       >
 
-      <v-row no-gutters class="justify-center">
+      <v-row
+        no-gutters
+        class="justify-center mx-auto"
+        style="max-width: 1440px;"
+      >
         <v-col
           cols="12"
-          lg="4"
+          lg="6"
           v-for="(event, index) in virtualEvents"
           :key="index"
         >
@@ -143,10 +151,14 @@
         >Event Archive</v-card-title
       >
 
-      <v-row no-gutters class="justify-center">
+      <v-row
+        no-gutters
+        class="justify-center mx-auto"
+        style="max-width: 1440px;"
+      >
         <v-col
           cols="12"
-          lg="4"
+          lg="6"
           v-for="(event, index) in eventsArchive"
           :key="index"
         >
@@ -191,6 +203,27 @@
 
               <v-card-text class="text-body-1" v-if="event.showInfo">
                 <div v-html="event.text" />
+                <div v-for="(day, i) in event.days" :key="i">
+                  <div class="text-center font-weight-bold mb-5 mt-5">
+                    {{ day.title }}
+                  </div>
+                  <v-expansion-panels focusable>
+                    <v-expansion-panel
+                      v-for="(session, i) in day.sessions"
+                      :key="i"
+                    >
+                      <v-expansion-panel-header>
+                        <span class="font-weight-bold">{{
+                          session.title
+                        }}</span></v-expansion-panel-header
+                      >
+                      <v-expansion-panel-content>
+                        <p>{{ session.subtitle }}</p>
+                        <div v-html="session.text"></div>
+                      </v-expansion-panel-content>
+                    </v-expansion-panel>
+                  </v-expansion-panels>
+                </div>
               </v-card-text>
             </v-card>
           </v-hover>
@@ -222,40 +255,123 @@ export default {
           "RE-SOURCING will organise three sector-specific Flagship Lab Workshops for peer learning. Peer learning will serve to: 1) learn from good practice in FS cases; 2) develop an action catalogue for unresolved challenges in the FS cases; and 3) provide input to contextualise and generalise good practice factors in other organisational and EU MS settings (in preparation to Good Practice Guidance Reports)."
       }
     ],
-    virtualEvents: [
+    virtualEvents: [],
+    eventsArchive: [
       {
         title: "Virtual Conferences",
         showInfo: false,
         text: `
-        <div class="text-center font-weight-bold headline mb-2" >RE-SOURCING</div>
-        <div class="text-center font-weight-bold mb-2 headline">Opening Conference</div>
-        <div class="text-center font-weight-bold mb-2 title">Drivers of Responsible Sourcing: Find Common Ground, Prompt Collective Action, Create Lasting Change</div>
-        <div class="text-center mb-5">Virtual Event</div>
+        <div class="text-center font-weight-bold headline mb-2" >Drivers of Responsible Sourcing</div>
+        <div class="text-center font-weight-bold mb-2 headline">Common Grounds - Collective Actions - Lasting Change </div>
+        <div class="text-center font-weight-bold mb-5 title">Virtual Conference, Jan 18th and 19th 2021</div>
+        <div class="text-center font-weight-bold mb-5">THANK YOU!</div>
 
-        <div class="text-center font-weight-bold mb-2"><a href="https://www.re-sourcing.eu/files/OC_Agenda_external_02_12_2020.pdf" target="blank">Event agenda</a></div>
-        <div class="mb-5 font-weight-bold text-center"><a href="https://www.eventbrite.at/e/re-sourcing-virtual-opening-conference-registration-127671046537" target="blank" rel="noreferrer noopener">Register</a></div>
-        
-        <div class="mb-2 font-weight-bold text-center">Please mark this event in your calendar:</div>
-        <div class="text-center"><a href="https://www.re-sourcing.eu/files/RE-SOURCING_Opening_Conference_Day1.ics" target="blank" download">Calendar invitation Day 1: January 18 – 12:30-17:30 CET</a></div>
-        <div class="mb-5 text-center"><a href="https://www.re-sourcing.eu/files/RE-SOURCING_Opening_Conference_Day2.ics" target="blank" rel="noreferrer noopener" download>Calendar invitation Day 2: January 19 – 10:00-16:00 CET</a></div>
-        
-        <div class="mb-3">The RE-SOURCING Project is hosting its Virtual Opening Conference – <b>“Drivers of Responsible Sourcing: Find Common Ground, Prompt Collective Action, Create Lasting Change”</b> – on 18th-19th January 2021!</div>
-        <div class="mb-5">The virtual event will host <b>150+ participants from across the globe</b> and <b>we cordially invite you to join us:</b> Learn from and engage with high-level experts from business, policy and civil society! </div>
-        
-        <div class="mb-3 font-weight-bold title">Event Overview</div>
-        <div class="mb-3">Responsible Sourcing has come of age, with a plethora of initiatives, actions, paradigms and management approaches to support global sustainability agendas. At the same time, Responsible Sourcing is facing a challenging moment in time: The <a href="https://www.youtube.com/watch?v=ioqfUXJ9QGY&feature=youtu.be" target="blank" rel="noopener norefferrer">EU Green Deal</a>, the <a href="https://www.youtube.com/watch?v=0HI6yeAA3cM&feature=youtu.be" target="blank" rel="noopener norefferrer">COVID-19 pandemic</a>, a narrowing window to meet global climate goals and various other changes require us to rethink the future of Responsible Sourcing.</div>
-        <div class="mb-5">The RE-SOURCING Project recognizes the opportunity of this moment to consolidate our global experiences and forge an agreed path for the future. <b>We invite you to join the project’s Opening Conference that will dive into some of the major Drivers of Responsible Sourcing.</b> Examining the road already travelled and mapping the paths ahead, we will delve into the question: Are we on track to find common ground, prompt collective action, and create lasting change?</div>
-        
-        <div class="mb-3 font-weight-bold title">Who should attend this event?</div>
-        <div class="mb-3"><b>Responsible Sourcing Opening Conference</b> “Drivers of Responsible Sourcing” welcomes businesses, policy makers, civil society and academia alike to bring forward their view on where we stand and where we should go with Responsible Sourcing. We encourage an open and critical, yet constructive discourse that increases problem awareness from all relevant perspectives.</div>
-        <div class="mb-5">You should attend this event to learn more about the current state of Responsible Sourcing, engage with the RE-SOURCING network, and participate in peer learning and knowledge co-creation for supporting businesses and policy makers in their uptake of Responsible Sourcing.</div>
-        
-        <div class="mb-3 font-weight-bold text-center"><a href="https://www.eventbrite.at/e/re-sourcing-virtual-opening-conference-registration-127671046537" target="blank" rel="noreferrer noopener">Register here for the RE-SOURCING Opening Conference </a></div>
+        <div class="text-center font-weight-bold mb-5"><a href="https://www.re-sourcing.eu/files/OC_Agenda_external_02_12_2020.pdf" target="blank">Event agenda</a></div>
+          
+        <div class="mb-3">The RE-SOURCING project team would like to thank you for taking part in our first virtual Conference: Drivers of Responsible Sourcing, Common Grounds - Collective Actions - Lasting Change.</div>
+        <div class="mb-3">The event was a great success for us, with more than 240 participants from around the globe, plenty of interesting presentations, discussions, questions and comments that we will take on as input for our project!</div>
+        <div class="">The event outlined the main mechanisms that drive this transition towards more responsible sourcing practices along the topics of:</div>
+        <ul class="mb-3">
+        <li>Awareness Building & Advocacy: Our global pledge to leave no one behind</li>
+        <li>Industry Frontrunners & Business Alliances: Improving Supply Risks, Competitiveness & Reputation</li>
+        <li>Regulations & Standards: The Interplay between policies & standards</li>
+        <li>Investment & Stock and Commodity Markets: How the financial sector can push for more Responsible Sourcing</li>
+        </ul>
 
-      `
-      }
-    ],
-    eventsArchive: [
+        <div class="mb-3">Here is a quick recap teaser for those of you who participated, and a small taste for those who were not able to do so: </div>
+        <div style="max-width: 560px; margin: auto">
+        <div class="mt-4 mb-4 video-container">
+            <iframe class="video" width="560" height="315" title="Disruptions to responsible sourcing after-movie" src="https://www.youtube.com/embed/3K2OQiqMXUI" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+        
+        <div class="mb-3">Here you can find the event’s individual sessions, recordings and presentation slides:</div>
+      `,
+        days: [
+          {
+            title: "DAY 1: Monday 18th of January 2021",
+            sessions: [
+              {
+                title: "Session 1. Introduction",
+                subtitle: "",
+                text: `
+                    <ul class="mb-3">
+        <li>Conference Welcome by <strong>André Martinuzzi</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business (pdf)</li>
+        <li>Opening Key-note by <strong>MaijaLaurila, EC DG JUST</strong></li>
+        <li>Opening Key-note by <strong>MasumaFarooki</strong>, Minehutte </li>
+        <li>Opening Key-note by <strong>Andreas Endl</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+            `
+              },
+              {
+                title: "Session 2. Awareness Building & Advocacy",
+                subtitle:
+                  "Our global pledge to leave no one behind - How to make frontline communities heard and respected in the process towards RS?",
+                text: `
+                   <ul class="mb-3">
+        <li>Key-note presentation by <strong>Mark Dummett</strong>, Amnesty international (pdf)</li>
+        <li>Practice example by <strong>Emmanuel Umpula</strong>, AFREWATCH(pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+            `
+              },
+              {
+                title: "Session 3. Industry Frontrunners & Business Alliances",
+                subtitle:
+                  "Exploring the case for building Alliances: Challenges & opportunities in strengthening business competitiveness and bench-marking responsible sourcing",
+                text: `
+                   <ul class="mb-3">
+        <li>Key-note presentation by <strong>Alexander Nick</strong>, BMW (pdf)</li>
+        <li>Practice example by Badrinath Veluri, Rare Earth Industry Association (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+            `
+              }
+            ]
+          },
+          {
+            title: "DAY 2: Tuesday 19th of January 2021",
+            sessions: [
+              {
+                title: "Session 4. Regulations & Standards",
+                subtitle:
+                  "The Interplay between policies & standards: A mutually supportive or conflicting relationship?",
+                text: `
+        <ul class="mb-3">
+        <li>Key-note presentation byTyler Gillard, OECD(only recording)</li>
+        <li>Practice example by Fiona Solomon, Aluminium Stewardship Initiative (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+            `
+              },
+              {
+                title: "Session 5. Investment & Stock and Commodity Markets",
+                subtitle:
+                  "How can the financial sector push for more Responsible Sourcing – the role of ESG ratings, impact investment and what else?",
+                text: `
+        <ul class="mb-3">
+        <li>Key-note presentation by Andreas Hoepner, OECD(only recording)</li>
+        <li>Practice example by John Howchin, Swedish Pension Fund (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+            `
+              },
+              {
+                title: "Session 6. Wrap up of the Opening Conference",
+                subtitle:
+                  "Change is in the air – What is it and are we on the right track?",
+                text: `
+                          <ul class="mb-3">
+        <li>Session recording (youtube link)</li>
+
+        </ul>
+            `
+              }
+            ]
+          }
+        ]
+      },
       {
         title: "Virtual Events",
         subtitle:
@@ -304,7 +420,6 @@ export default {
           <div class="mb-4">Furthermore, the presentations and a summary of the event are available for download <a href="https://www.re-sourcing.eu/files/RE_Virtual_Roadmap_Workshop_Presentations.zip" download>here</a> (.zip, 7.8 MB).</div>
           <div class="mb-4">We encourage you to contact us if you were not able to attend the workshop but would like to be involved in the development of the roadmap for the renewable energy sector.</div>
           <div class="mb-4 text-left">Marie-Theres Kügerl, Montanuniversität Leoben, <br/><a href="mailto:marie-theres.kuegerl@unileoben.ac.at">marie-theres.kuegerl[at]unileoben.ac.at</a></div>
-
           `
       }
     ]
@@ -337,6 +452,172 @@ export default {
     }
   }
 };
+
+/* 
+      {
+        title: "Virtual Conferences",
+        showInfo: false,
+        text: `
+        <div class="text-center font-weight-bold headline mb-2" >Drivers of Responsible Sourcing</div>
+        <div class="text-center font-weight-bold mb-2 headline">Common Grounds - Collective Actions - Lasting Change </div>
+        <div class="text-center font-weight-bold mb-5 title">Virtual Conference, Jan 18th and 19th 2021</div>
+        <div class="text-center font-weight-bold mb-5">THANK YOU!</div>
+
+        <div class="text-center font-weight-bold mb-5"><a href="https://www.re-sourcing.eu/files/OC_Agenda_external_02_12_2020.pdf" target="blank">Event agenda</a></div>
+          
+        <div class="mb-3">The RE-SOURCING project team would like to thank you for taking part in our first virtual Conference: Drivers of Responsible Sourcing, Common Grounds - Collective Actions - Lasting Change.</div>
+        <div class="mb-3">The event was a great success for us, with more than 240 participants from around the globe, plenty of interesting presentations, discussions, questions and comments that we will take on as input for our project!</div>
+        <div class="">The event outlined the main mechanisms that drive this transition towards more responsible sourcing practices along the topics of:</div>
+        <ul class="mb-3">
+        <li>Awareness Building & Advocacy: Our global pledge to leave no one behind</li>
+        <li>Industry Frontrunners & Business Alliances: Improving Supply Risks, Competitiveness & Reputation</li>
+        <li>Regulations & Standards: The Interplay between policies & standards</li>
+        <li>Investment & Stock and Commodity Markets: How the financial sector can push for more Responsible Sourcing</li>
+        </ul>
+
+        <div class="mb-3">Here is a quick recap teaser for those of you who participated, and a small taste for those who were not able to do so: </div>
+        <div style="max-width: 560px; margin: auto">
+        <div class="mt-4 mb-4 video-container">
+            <iframe class="video" width="560" height="315" title="Disruptions to responsible sourcing after-movie" src="https://www.youtube.com/embed/3K2OQiqMXUI" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+        
+        <div class="mb-3">Here you can find the event’s individual Sessionsrecordings and presentation slides:</div>
+        <div class="text-center font-weight-bold mb-5">DAY 1: Monday 18th of January 2021</div>
+
+        <div><span class="font-weight-bold">Session 1. Introduction: </span>Welcome, Understanding the drivers & needs for RS</div>
+        <ul class="mb-3">
+        <li>Conference Welcome by <strong>André Martinuzzi</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business (pdf)</li>
+        <li>Opening Key-note by <strong>MaijaLaurila, EC DG JUST</strong></li>
+        <li>Opening Key-note by <strong>MasumaFarooki</strong>, Minehutte </li>
+        <li>Opening Key-note by <strong>Andreas Endl</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+
+        <div><span class="font-weight-bold">Session 2. Awareness Building & Advocacy: </span>Our global pledge to leave no one behind - How to make frontline communities heard and respected in the process towards RS?</div>
+        <ul class="mb-3">
+        <li>Key-note presentation by <strong>Mark Dummett</strong>, Amnesty international (pdf)</li>
+        <li>Practice example by <strong>Emmanuel Umpula</strong>, AFREWATCH(pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+
+        <div><span class="font-weight-bold">Session 3. Industry Frontrunners & Business Alliances: </span>Exploring the case for building Alliances: Challenges & opportunities in strengthening business competitiveness and bench-marking responsible sourcing</div>
+        <ul class="mb-3">
+        <li>Key-note presentation by <strong>Alexander Nick</strong>, BMW (pdf)</li>
+        <li>Practice example by Badrinath Veluri, Rare Earth Industry Association (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+
+        <div class="text-center font-weight-bold mb-5">DAY 2: Tuesday 19th of January 2021</div>
+
+        <div><span class="font-weight-bold">Session 4. Regulations & Standards: </span>The Interplay between policies & standards: A mutually supportive or conflicting relationship?</div>
+        <ul class="mb-3">
+        <li>Key-note presentation byTyler Gillard, OECD(only recording)</li>
+        <li>Practice example by Fiona Solomon, Aluminium Stewardship Initiative (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+
+        <div><span class="font-weight-bold">Session 5. Investment & Stock and Commodity Markets: </span>How can the financial sector push for more Responsible Sourcing – the role of ESG ratings, impact investment and what else?</div>
+        <ul class="mb-3">
+        <li>Key-note presentation by Andreas Hoepner, OECD(only recording)</li>
+        <li>Practice example by John Howchin, Swedish Pension Fund (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+
+        <div><span class="font-weight-bold">Session 6. Wrap up of the Opening Conference: </span>Change is in the air – What is it and are we on the right track?</div>
+        <ul class="mb-3">
+        <li>Key-note presentation by Andreas Hoepner, OECD(only recording)</li>
+        <li>Practice example by John Howchin, Swedish Pension Fund (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+      `,
+        days: [
+          {
+            title: "DAY 1: Monday 18th of January 2021",
+            sessions: [
+              {
+                title: "Session 1. Introduction: ",
+                subtitle: "",
+                text: `
+                    <ul class="mb-3">
+        <li>Conference Welcome by <strong>André Martinuzzi</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business (pdf)</li>
+        <li>Opening Key-note by <strong>MaijaLaurila, EC DG JUST</strong></li>
+        <li>Opening Key-note by <strong>MasumaFarooki</strong>, Minehutte </li>
+        <li>Opening Key-note by <strong>Andreas Endl</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+            `,
+              },
+              {
+                title: "Session 2. Awareness Building & Advocacy: ",
+                subtitle:
+                  "Our global pledge to leave no one behind - How to make frontline communities heard and respected in the process towards RS?",
+                text: `
+                   <ul class="mb-3">
+        <li>Key-note presentation by <strong>Mark Dummett</strong>, Amnesty international (pdf)</li>
+        <li>Practice example by <strong>Emmanuel Umpula</strong>, AFREWATCH(pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+            `,
+              },
+              {
+                title:
+                  "Session 3. Industry Frontrunners & Business Alliances: ",
+                subtitle:
+                  "Exploring the case for building Alliances: Challenges & opportunities in strengthening business competitiveness and bench-marking responsible sourcing",
+                text: `
+                   <ul class="mb-3">
+        <li>Key-note presentation by <strong>Alexander Nick</strong>, BMW (pdf)</li>
+        <li>Practice example by Badrinath Veluri, Rare Earth Industry Association (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+            `,
+              },
+            ],
+          },
+          {
+            title: "DAY 2: Tuesday 19th of January 2021",
+            sessions: [
+              {
+                title: "Session 4. Regulations & Standards: ",
+                subtitle:
+                  "The Interplay between policies & standards: A mutually supportive or conflicting relationship?",
+                text: `
+        <ul class="mb-3">
+        <li>Key-note presentation byTyler Gillard, OECD(only recording)</li>
+        <li>Practice example by Fiona Solomon, Aluminium Stewardship Initiative (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+            `,
+              },
+              {
+                title: "Session 5. Investment & Stock and Commodity Markets: ",
+                subtitle:
+                  "How can the financial sector push for more Responsible Sourcing – the role of ESG ratings, impact investment and what else?",
+                text: `
+        <ul class="mb-3">
+        <li>Key-note presentation by Andreas Hoepner, OECD(only recording)</li>
+        <li>Practice example by John Howchin, Swedish Pension Fund (pdf)</li>
+        <li>Session recording (youtube link)</li>
+        </ul>
+            `,
+              },
+              {
+                title: "Session 6. Wrap up of the Opening Conference: ",
+                subtitle:
+                  "Change is in the air – What is it and are we on the right track?",
+                text: `
+                          <ul class="mb-3">
+        <li>Session recording (youtube link)</li>
+
+        </ul>
+            `,
+              },
+            ],
+          },
+        ],
+      },
+*/
 </script>
 
 <style scoped>
