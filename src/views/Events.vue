@@ -297,8 +297,8 @@ export default {
                 text: `
                     <ul class="mb-3">
         <li>Conference Welcome by <strong>André Martinuzzi</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business (pdf)</li>
-        <li>Opening Key-note by <strong>MaijaLaurila, EC DG JUST</strong></li>
-        <li>Opening Key-note by <strong>MasumaFarooki</strong>, Minehutte </li>
+        <li>Opening Key-note by <strong>Maija Laurila, EC DG JUST</strong></li>
+        <li>Opening Key-note by <strong>Masuma Farooki</strong>, Minehutte </li>
         <li>Opening Key-note by <strong>Andreas Endl</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business (pdf)</li>
         <li>Session recording (youtube link)</li>
         </ul>
@@ -323,7 +323,7 @@ export default {
                 text: `
                    <ul class="mb-3">
         <li>Key-note presentation by <strong>Alexander Nick</strong>, BMW (pdf)</li>
-        <li>Practice example by Badrinath Veluri, Rare Earth Industry Association (pdf)</li>
+        <li>Practice example by <strong>Badrinath Veluri</strong>, Rare Earth Industry Association (pdf)</li>
         <li>Session recording (youtube link)</li>
         </ul>
             `
@@ -339,8 +339,8 @@ export default {
                   "The Interplay between policies & standards: A mutually supportive or conflicting relationship?",
                 text: `
         <ul class="mb-3">
-        <li>Key-note presentation byTyler Gillard, OECD(only recording)</li>
-        <li>Practice example by Fiona Solomon, Aluminium Stewardship Initiative (pdf)</li>
+        <li>Key-note presentation by <strong>Tyler Gillard</strong>, OECD(only recording)</li>
+        <li>Practice example by <strong>Fiona Solomon</strong>, Aluminium Stewardship Initiative (pdf)</li>
         <li>Session recording (youtube link)</li>
         </ul>
             `
@@ -351,8 +351,8 @@ export default {
                   "How can the financial sector push for more Responsible Sourcing – the role of ESG ratings, impact investment and what else?",
                 text: `
         <ul class="mb-3">
-        <li>Key-note presentation by Andreas Hoepner, OECD(only recording)</li>
-        <li>Practice example by John Howchin, Swedish Pension Fund (pdf)</li>
+        <li>Key-note presentation by <strong>Andreas Hoepner</strong>, OECD(only recording)</li>
+        <li>Practice example by <strong>John Howchin</strong>, Swedish Pension Fund (pdf)</li>
         <li>Session recording (youtube link)</li>
         </ul>
             `
