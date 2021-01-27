@@ -294,13 +294,13 @@ export default {
               {
                 title: "Session 1. Introduction",
                 subtitle: "",
-                text: `
+                text: `  
                     <ul class="mb-3">
-        <li>Conference Welcome by <strong>André Martinuzzi</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business (pdf)</li>
-        <li>Opening Key-note by <strong>Maija Laurila, EC DG JUST</strong></li>
-        <li>Opening Key-note by <strong>Masuma Farooki</strong>, Minehutte </li>
-        <li>Opening Key-note by <strong>Andreas Endl</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Conference Welcome by <strong>André Martinuzzi</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business</li>
+        <li>Opening Key-note by <strong>Maija Laurila, EC DG JUST</strong> [Youtube] </li>
+        <li>Opening Key-note by <strong>Masuma Farooki</strong>, Minehutte <a href="https://re-sourcing.eu/files/opening_conference/Farooki_Keynote.pdf" target="blank">[PDF]</a></li>
+        <li>Opening Key-note by <strong>Andreas Endl</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business</li>
+        <li>Session recording [Youtube]</li>
         </ul>
             `
               },
@@ -310,9 +310,9 @@ export default {
                   "Our global pledge to leave no one behind - How to make frontline communities heard and respected in the process towards RS?",
                 text: `
                    <ul class="mb-3">
-        <li>Key-note presentation by <strong>Mark Dummett</strong>, Amnesty international (pdf)</li>
-        <li>Practice example by <strong>Emmanuel Umpula</strong>, AFREWATCH(pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Key-note presentation by <strong>Mark Dummett</strong>, Amnesty international <a href="https://re-sourcing.eu/files/opening_conference/Dummett_Keynote.pdf" target="blank">[PDF]</a></li>
+        <li>Practice example by <strong>Emmanuel Umpula</strong>, AFREWATCH <a href="https://re-sourcing.eu/files/opening_conference/Umpula_Practice Example.pdf" target="blank">[PDF]</a></li>
+        <li>Session recording [Youtube]</li>
         </ul>
             `
               },
@@ -322,9 +322,9 @@ export default {
                   "Exploring the case for building Alliances: Challenges & opportunities in strengthening business competitiveness and bench-marking responsible sourcing",
                 text: `
                    <ul class="mb-3">
-        <li>Key-note presentation by <strong>Alexander Nick</strong>, BMW (pdf)</li>
-        <li>Practice example by <strong>Badrinath Veluri</strong>, Rare Earth Industry Association (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Key-note presentation by <strong>Alexander Nick</strong>, BMW <a href="https://re-sourcing.eu/files/opening_conference/Nick_Keynote.pdf" target="blank">[PDF]</a></li>
+        <li>Practice example by <strong>Badrinath Veluri</strong>, Rare Earth Industry Association <a href="https://re-sourcing.eu/files/opening_conference/Veluri_Practice Example.pdf" target="blank">[PDF]</a></li>
+        <li>Session recording [Youtube]</li>
         </ul>
             `
               }
@@ -339,9 +339,9 @@ export default {
                   "The Interplay between policies & standards: A mutually supportive or conflicting relationship?",
                 text: `
         <ul class="mb-3">
-        <li>Key-note presentation by <strong>Tyler Gillard</strong>, OECD(only recording)</li>
-        <li>Practice example by <strong>Fiona Solomon</strong>, Aluminium Stewardship Initiative (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Key-note presentation by <strong>Tyler Gillard</strong>, OECD [Youtube]</li>
+        <li>Practice example by <strong>Fiona Solomon</strong>, Aluminium Stewardship Initiative <a href="https://re-sourcing.eu/files/opening_conference/Solomon_Practice Example.pdf" target="blank">[PDF]</a></li>
+        <li>Session recording [Youtube]</li>
         </ul>
             `
               },
@@ -351,9 +351,9 @@ export default {
                   "How can the financial sector push for more Responsible Sourcing – the role of ESG ratings, impact investment and what else?",
                 text: `
         <ul class="mb-3">
-        <li>Key-note presentation by <strong>Andreas Hoepner</strong>, OECD(only recording)</li>
-        <li>Practice example by <strong>John Howchin</strong>, Swedish Pension Fund (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Key-note presentation by <strong>Andreas Hoepner</strong>, OECD</li>
+        <li>Practice example by <strong>John Howchin</strong>, Swedish Pension Fund <a href="https://re-sourcing.eu/files/opening_conference/Howchin_Practice Example.pdf" target="blank">[PDF]</a></li>
+        <li>Session recording [Youtube]</li>
         </ul>
             `
               },
@@ -363,7 +363,7 @@ export default {
                   "Change is in the air – What is it and are we on the right track?",
                 text: `
                           <ul class="mb-3">
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
 
         </ul>
             `
@@ -491,21 +491,21 @@ export default {
         <li>Opening Key-note by <strong>MaijaLaurila, EC DG JUST</strong></li>
         <li>Opening Key-note by <strong>MasumaFarooki</strong>, Minehutte </li>
         <li>Opening Key-note by <strong>Andreas Endl</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
         </ul>
 
         <div><span class="font-weight-bold">Session 2. Awareness Building & Advocacy: </span>Our global pledge to leave no one behind - How to make frontline communities heard and respected in the process towards RS?</div>
         <ul class="mb-3">
         <li>Key-note presentation by <strong>Mark Dummett</strong>, Amnesty international (pdf)</li>
         <li>Practice example by <strong>Emmanuel Umpula</strong>, AFREWATCH(pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
         </ul>
 
         <div><span class="font-weight-bold">Session 3. Industry Frontrunners & Business Alliances: </span>Exploring the case for building Alliances: Challenges & opportunities in strengthening business competitiveness and bench-marking responsible sourcing</div>
         <ul class="mb-3">
         <li>Key-note presentation by <strong>Alexander Nick</strong>, BMW (pdf)</li>
         <li>Practice example by Badrinath Veluri, Rare Earth Industry Association (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
         </ul>
 
         <div class="text-center font-weight-bold mb-5">DAY 2: Tuesday 19th of January 2021</div>
@@ -514,21 +514,21 @@ export default {
         <ul class="mb-3">
         <li>Key-note presentation byTyler Gillard, OECD(only recording)</li>
         <li>Practice example by Fiona Solomon, Aluminium Stewardship Initiative (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
         </ul>
 
         <div><span class="font-weight-bold">Session 5. Investment & Stock and Commodity Markets: </span>How can the financial sector push for more Responsible Sourcing – the role of ESG ratings, impact investment and what else?</div>
         <ul class="mb-3">
         <li>Key-note presentation by Andreas Hoepner, OECD(only recording)</li>
         <li>Practice example by John Howchin, Swedish Pension Fund (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
         </ul>
 
         <div><span class="font-weight-bold">Session 6. Wrap up of the Opening Conference: </span>Change is in the air – What is it and are we on the right track?</div>
         <ul class="mb-3">
         <li>Key-note presentation by Andreas Hoepner, OECD(only recording)</li>
         <li>Practice example by John Howchin, Swedish Pension Fund (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
         </ul>
       `,
         days: [
@@ -544,7 +544,7 @@ export default {
         <li>Opening Key-note by <strong>MaijaLaurila, EC DG JUST</strong></li>
         <li>Opening Key-note by <strong>MasumaFarooki</strong>, Minehutte </li>
         <li>Opening Key-note by <strong>Andreas Endl</strong>, Institute for Managing Sustainability, Vienna University of Economics and Business (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
         </ul>
             `,
               },
@@ -556,7 +556,7 @@ export default {
                    <ul class="mb-3">
         <li>Key-note presentation by <strong>Mark Dummett</strong>, Amnesty international (pdf)</li>
         <li>Practice example by <strong>Emmanuel Umpula</strong>, AFREWATCH(pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
         </ul>
             `,
               },
@@ -569,7 +569,7 @@ export default {
                    <ul class="mb-3">
         <li>Key-note presentation by <strong>Alexander Nick</strong>, BMW (pdf)</li>
         <li>Practice example by Badrinath Veluri, Rare Earth Industry Association (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
         </ul>
             `,
               },
@@ -586,7 +586,7 @@ export default {
         <ul class="mb-3">
         <li>Key-note presentation byTyler Gillard, OECD(only recording)</li>
         <li>Practice example by Fiona Solomon, Aluminium Stewardship Initiative (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
         </ul>
             `,
               },
@@ -598,7 +598,7 @@ export default {
         <ul class="mb-3">
         <li>Key-note presentation by Andreas Hoepner, OECD(only recording)</li>
         <li>Practice example by John Howchin, Swedish Pension Fund (pdf)</li>
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
         </ul>
             `,
               },
@@ -608,7 +608,7 @@ export default {
                   "Change is in the air – What is it and are we on the right track?",
                 text: `
                           <ul class="mb-3">
-        <li>Session recording (youtube link)</li>
+        <li>Session recording [Youtube]</li>
 
         </ul>
             `,
